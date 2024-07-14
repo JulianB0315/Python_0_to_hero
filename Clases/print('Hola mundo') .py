@@ -25,3 +25,4 @@ print(type({'Nombre':'Julian'})) #Tipo "dict"
 print(type((1.3, 1.4, 1.5))) #Tipo "tuple"
 print(type({'Nombre':'Julian'})) #Tipo "dict"
 print(type(True)) #Tipo "bool"
+#Ahora ya estas list@ para el primer ejecicio
