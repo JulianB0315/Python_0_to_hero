@@ -12,16 +12,16 @@
 
 > [!NOTE]
 >## Instrucciones 🗂️
->**Haz un [FORK](https://github.com/Alejosor/Java_0_to_Hero/fork) del proyecto y trabaja con Git para ir sincronizando las actualizaciones.**
+>**Haz un [FORK](https://github.com/JulianB0315/Python_0_to_hero.git) del proyecto y trabaja con Git para ir sincronizando las actualizaciones.**
 >1. Si quieres compartir tu propia solución de un ejercicio con la comunidad, crea un fichero de código con tu nombre y extensión, y realiza una [**PULL REQUEST**](https://docs.github.com/es/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) contra el repositorio.
->2. El fichero de código debe situarse dentro del directorio del ejercicio correspondiente. El título de la Pull Request también debe seguir este formato: **"#[número del ejercicio] - [Nombre de usuario de GitHub]"**. En el ejemplo anterior sería **"#Ejercicio #1 - JulianB0315"**. Se rechazarán las Pull Request que no sigan este formato o contengan ficheros adicionales.
+>2. El fichero de código debe situarse dentro del directorio del ejercicio correspondiente. El título de la Pull Request también debe seguir este formato: **"#[titulo del modulo] - [Nombre de usuario de GitHub]"**. En el ejemplo anterior sería **"hola mundo - JulianB0315"**. Se rechazarán las Pull Request que no sigan este formato o contengan ficheros adicionales.
 >3. Si necesitas ayuda o quieres comentar cualquier cosa sobre las clases o ejercicios, puedes dejar la consulta en la parte de [**ISSUES**](https://github.com/JulianB0315/Python_0_to_hero/issues).
 >4. Puedes proponer Pull Request con propuestas o correcciones sobre ejercicios del resto de los participantes si estos poseen errores. De esta manera colaboraremos y practicaremos para comprender de mejor manera el lenguaje.
 >5. Si se te solicita un cambio/corrección en una Pull Request, y al cabo de 2 semanas no se muestra nueva actividad, se cerrará esa petición para mantener el repositorio limpio. Por supuesto, puedes volver a enviar la Pull Request cuando quieras.
 
 > [!TIP]
 >##  Guía rápida Git y GitHub ⏭️
->1. Realiza un [FORK](https://github.com/Alejosor/Java_0_to_Hero/fork) del repositorio de Java desde GitHub.
+>1. Realiza un [FORK](https://github.com/JulianB0315/Python_0_to_hero.git) del repositorio de python desde GitHub.
 >2. CLONA ese repositorio a tu máquina local `git clone [TU-REPOSITORIO]`.
 >3. (Opcional) Crea una RAMA para la solución y desplázate a ella `git checkout -b [EL-NOMBRE-DE-TU-RAMA]`.
 >4. Añade el fichero de tu solución al STAGE `git add [FICHERO-DE-TU-EJERCICIO]`.
