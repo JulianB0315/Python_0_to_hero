@@ -10,7 +10,7 @@ mun1=10
 #last@name='Acuña'
 #first-name='Pedro'
 #1mun=8
-
+#----------------------------------------------------------------------------------------------------------------------------------------------
 #Podemos tener diferentes tipos de variables como:
 tipo_string='Hola tengo'# 'str'
 #Imprimimos la variable con un print el nombre de la variable sin las comillas
@@ -20,12 +20,14 @@ tipo_int=20 # 'int'
 #Con los números igual 
 print(tipo_int) 
 
+#Y con demas
 tipo_bool=False
 print(tipo_bool)
-
+#-------------------------------------------------------------------------------------------------------------------------------------------
 #Podemos llamar diferentes variables y escribir líneas de texto, sin importar el tipo siempre y cuando estén separadas con comas 
 print(tipo_string,tipo_int,'este dato es',tipo_bool)
 
+#-------------------------------------------------------------------------------------------------------------------------------------------
 #Ahora probemos con cambiar los tipos de variables a str
 edad=18
 print(edad)
@@ -44,7 +46,11 @@ str_python=str(python)
 print(str_python)
 print(type(str_python))
 
+#-------------------------------------------------------------------------------------------------------------------------------------------
 #Ahora probemos algo más poner varias variables en una sola línea
-Nombre,ciclo,carrera,respuesta='Juan',3,'Ingeniero en sofware',True
+nombre,ciclo,carrera,respuesta='Juan',3,'Ingeniero en sofware',True
 #Ahora probemos en una cadena de texto las variables anteriores
-print('Soy',Nombre,'estudio',carrera,'voy por el ciclo N°',ciclo,'esto es la',respuesta )
+print('Soy',nombre,'estudio',carrera,'voy por el ciclo N°',ciclo,'esto es la',respuesta )
+#Importante debes de tener cuidado al hacer esto, por que puedes crear posibles errores
+
+#-------------------------------------------------------------------------------------------------------------------------------------------
