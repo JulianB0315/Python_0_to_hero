@@ -25,4 +25,4 @@ print(type({'Nombre':'Julian'})) #Tipo "dict"
 print(type((1.3, 1.4, 1.5))) #Tipo "tuple"
 print(type({'Nombre':'Julian'})) #Tipo "dict"
 print(type(True)) #Tipo "bool"
-#Ahora ya estas list@ para el primer Modulo "01 Hola Mundo" link:https://github.com/JulianB0315/Python_0_to_hero/blob/main/Ejercicios/01%20Hola%20mundo.md
+#Ahora ya estas list@ para el primer Modulo "01 Hola Mundo" https://github.com/JulianB0315/Python_0_to_hero/blob/main/Ejercicios/01%20Hola%20mundo/01%20Hola%20mundo.md

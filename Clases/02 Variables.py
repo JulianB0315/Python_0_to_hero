@@ -69,3 +69,4 @@ prueba=30
 #veamos si prueba si la variable sigue como str
 print(type(prueba))
 #Como vemos no funciona esto solo pasa en Python, pero es una mala practica por que puede generar errores
+##Ahora ya estas list@ para el primer Modulo 
