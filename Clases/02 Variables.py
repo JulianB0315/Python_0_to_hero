@@ -10,7 +10,7 @@ mun1=10
 #last@name='Acuña'
 #first-name='Pedro'
 #1mun=8
-#----------------------------------------------------------------------------------------------------------------------------------------------
+#---------------------------------------------------------------------------------------------------------------------------------------------
 #Podemos tener diferentes tipos de variables como:
 tipo_string='Hola tengo'# 'str'
 #Imprimimos la variable con un print el nombre de la variable sin las comillas
@@ -54,3 +54,8 @@ print('Soy',nombre,'estudio',carrera,'voy por el ciclo N°',ciclo,'esto es la',r
 #Importante debes de tener cuidado al hacer esto, por que puedes crear posibles errores
 
 #-------------------------------------------------------------------------------------------------------------------------------------------
+#Después de haber aprendido las variables y algunos de sus tipos
+#Probemos que el propio usuario ingrese el valor de esas variables
+nombre=input('¿Cual es tu nombre?')
+edad=input('¿Cuantos es tu edad?')
+print('Hola',nombre,'de',edad,'años de edad')
