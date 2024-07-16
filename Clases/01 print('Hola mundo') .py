@@ -3,7 +3,7 @@
 
 print("Hola mundo")
 print('Hola mundo')
-
+#-------------------------------------------------------------------------------------------------------------------------------------------
 # Un print es demasiado fácil probemos con algo mas 
 """
 Los comentarios son una 
@@ -11,7 +11,7 @@ ayuda para ubicar un proceso
 rapido o simplemente documentar 
 puedes hacerlos con
 # ' y """
-
+#-------------------------------------------------------------------------------------------------------------------------------------------
 #Existen diferentes tipos de datos para letras, numeros, decimales, etc. 
 #Consulta del tipo de dato 
 print(type("Hola mundo")) #Tipo "str"
