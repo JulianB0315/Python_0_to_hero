@@ -59,3 +59,13 @@ print('Soy',nombre,'estudio',carrera,'voy por el ciclo N°',ciclo,'esto es la',r
 nombre=input('¿Cual es tu nombre?')
 edad=input('¿Cuantos es tu edad?')
 print('Hola',nombre,'de',edad,'años de edad')
+#Si te diste cuenta antes la variable nombre tenia otro valor que es Juan pero al crear un input con la misma variable cambiamos el valor de la misma 
+#Dato Importante: Las variables pueden cambiar durante el procedimiento de código, como el valor y el tipo de dato 
+#Esto solo se puede hacer en lenguajes como Python 
+#-------------------------------------------------------------------------------------------------------------------------------------------
+#Pero que pasa si intentamos forzar el valor de la variable para que siempre sea un str
+prueba: str='Hola mundo'
+prueba=30
+#veamos si prueba si la variable sigue como str
+print(type(prueba))
+#Como vemos no funciona esto solo pasa en Python, pero es una mala practica por que puede generar errores
