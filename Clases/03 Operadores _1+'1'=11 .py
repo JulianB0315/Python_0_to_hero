@@ -1,5 +1,5 @@
 #-------------------------------------------------------------------------------------------------------------------------------------------
-_1='Respuesta 1'
+_1='1'
 print(_1+'1')
 #-------------------------------------------------------------------------------------------------------------------------------------------
 #Operadores aritméticos los cuales son :
@@ -71,9 +71,24 @@ print(len('Pablo')>len('Sebastian')) #mayor que
 print('Operadores Logicos')
 # En caso de and une las dos cosa a que se refiere que si un comparación no se cumple soltar falso veamos algunos ejemplos
 #Si los dos cumple
+print('Operador and')
 print(str1!=str3 and len('Pablo')!=len('Sebastian')) 
 print(str1<str2 and n1!=n2)
 #Si solo uno cumple
 print(n1>n2 and str1>str3)
 print(str1>=str3 and n1>=n2) 
-
+#En caso de or una de las dos comparaciones debe de ser verdad
+print('Operador or')
+print(str1!=str3 and len('Pablo')!=len('Sebastian')) 
+print(str1<str2 and n1!=n2)
+print(n1>n2 and str1>str3)
+print(str1>=str3 and n1>=n2)
+#El not es un poco más complicado 
+#Pero no imposible este lo que hace es dar true su la comparación no se cumple de lo que este en parentesis
+print('Operador not')
+print(not(str1<str3))
+print(not(str1==str3))
+print(not(str1>str3))
+print(not(str1!=str3))
+#Y con esto terminamos nota: vimos la lógica Boolena te recomiendo verla y estudiarla es una base de para todos los lenguajes de programación 
+#-------------------------------------------------------------------------------------------------------------------------------------------
