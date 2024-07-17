@@ -19,3 +19,12 @@ print(3 % 2) #Muestra los residuos de una división
 print('Potencia')
 print(3 ** 2)  
 #-------------------------------------------------------------------------------------------------------------------------------------------
+#Una cosa interesante de los operadores es que podemos usarlos en cadenas de texto(multiplicación,potencia y suma) 
+print('Hola'+str(5))
+ # Tambien
+print(' Hola '*5)
+print(' Hola '*(2**2) )
+#En caso de la suma es una remplazo de las comas y en la multiplicación de multiplica el str anterior solo se pueden usar valores de tipo int
+print('Funciona '+ 'tambien '+'con '+'cadenas '+'de '+'texto')
+#-------------------------------------------------------------------------------------------------------------------------------------------
+
