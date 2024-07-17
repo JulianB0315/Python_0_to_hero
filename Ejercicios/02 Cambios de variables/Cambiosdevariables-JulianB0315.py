@@ -31,5 +31,5 @@ nombre2=input('¿Cómo te llamas?')
 años=input('¿Cuál es tu edad?')
 comida=input('¿Cuál es tu comida favorita?')
 
-print('Hola',nombre2,'de',años,'edad')
-print('Te gusta el',comida,'que delicioso!!')
+print('Hola',nombre2,'de',años,'años de edad')
+print('Te gusta el',comida,'que buen gusto!!')
