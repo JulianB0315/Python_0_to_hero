@@ -114,3 +114,4 @@ print(not(str1>str3))
 print(not(str1!=str3))
 #Y con esto terminamos nota: vimos la lógica Boolena te recomiendo verla y estudiarla es una base de para todos los lenguajes de programación 
 #-------------------------------------------------------------------------------------------------------------------------------------------
+#Ahora ya estas list@ para el primer Modulo "Operadores"https://github.com/JulianB0315/Python_0_to_hero/blob/main/Ejercicios/03%20Operadores/03%20Operadores.md
