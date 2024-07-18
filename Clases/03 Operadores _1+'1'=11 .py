@@ -19,6 +19,28 @@ print('Residuos de la división')
 print(3 % 2) #Muestra los residuos de una división                         
 print('Potencia')
 print(3 ** 2)  
+#Lo mismo se puede hacer como variables creadas previamente o introducidas al correr el código 
+print('Con variables')
+v1=2
+v2=30
+print('Suma')
+print(v1 + v2)
+print('Resta')
+print(v2 - v1)
+print('Multiplicación')
+print(v2 * v1)
+print('División')
+print(v2 / v1)
+v3=int(input('v3=?'))#Recuerda declara la variable con int o float 
+v4=int(input('v4=?'))
+print('Suma')
+print(v3 + v4)
+print('Resta')
+print(v3 - v4)
+print('Multiplicación')
+print(v3 * v4)
+print('División')
+print(v3 / v4)
 #-------------------------------------------------------------------------------------------------------------------------------------------
 #Una cosa interesante de los operadores es que podemos usarlos en cadenas de texto(multiplicación,potencia y suma) 
 print('Operadores aritmeticos en cadenas de texto')
