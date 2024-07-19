@@ -6,3 +6,8 @@
 string="A"
 print(string)#Imprime solo el valor de variable, pero agregando la función len()  se usa para contar las letras de str
 print(len(string))
+string_02= 'Hola mundoooo!'  # No solo te limites a una letra crea tu oración 
+print(string_02)             # Hola mundooo!
+print(len(string_02))
+string_03="Aprendemos python de una manera fácil  "
+print(string_03)
