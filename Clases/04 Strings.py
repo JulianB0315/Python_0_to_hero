@@ -11,6 +11,7 @@ print(string_02)             # Hola mundooo!
 print(len(string_02))
 string_03="Aprendemos python de una manera fácil"
 print(string_03)
+#-------------------------------------------------------------------------------------------------------------------------------------------
 #Podemos usar las comillas para pone nuestra cadena de texto en varias líneas
 multi_string='''Python es demasiado fácil de
 aprender en este repositorio, 
@@ -21,6 +22,7 @@ multi_string="""Python es demasiado fácil de
 aprender en este repositorio, 
 actualizamos los ficheros cada semana"""
 print(multi_string)
+#-------------------------------------------------------------------------------------------------------------------------------------------
 #Podemos conectar cadenas de texto
 Nombre = 'Pablo'
 Apellido = 'Escobar'
@@ -30,4 +32,7 @@ print(nombre_completo)
 print(len(Nombre))
 print(len(Apellido))   
 print(len(Nombre) > len(Apellido)) 
-print(len(nombre_completo)) 
+print(len(nombre_completo))
+#-------------------------------------------------------------------------------------------------------------------------------------------
+#En Python y otros lenguajes de programación \ seguido de un carácter es una secuencia de escape
+print('Es fácil aprender Python.\n¿Lo estas entendiendo?')#\n: nueva línea
