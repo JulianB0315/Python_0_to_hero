@@ -11,16 +11,23 @@ print(string_02)             # Hola mundooo!
 print(len(string_02))
 string_03="Aprendemos python de una manera fácil"
 print(string_03)
+#Podemos usar las comillas para pone nuestra cadena de texto en varias líneas
 multi_string='''Python es demasiado fácil de
 aprender en este repositorio, 
 actualizamos los ficheros cada semana'''
 print(multi_string)
+#Con las comillas dobles es igual
+multi_string="""Python es demasiado fácil de
+aprender en este repositorio, 
+actualizamos los ficheros cada semana"""
+print(multi_string)
+#Podemos conectar cadenas de texto
 Nombre = 'Pablo'
 Apellido = 'Escobar'
-space = ' '
-full_name = Nombre +  space + Apellido
-print(full_name) 
-print(len(Nombre))  
+Espacio = ' '
+nombre_completo = Nombre+Espacio+ Apellido#Pablo Escobar
+print(nombre_completo) 
+print(len(Nombre))
 print(len(Apellido))   
 print(len(Nombre) > len(Apellido)) 
-print(len(full_name)) 
+print(len(nombre_completo)) 
