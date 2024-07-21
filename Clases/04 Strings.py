@@ -36,3 +36,8 @@ print(len(nombre_completo))
 #-------------------------------------------------------------------------------------------------------------------------------------------
 #En Python y otros lenguajes de programación \ seguido de un carácter es una secuencia de escape
 print('Es fácil aprender Python.\n¿Lo estas entendiendo?')#\n: nueva línea
+print('Clases\tTemas\tModulos')#\t: Tab significa(8 espacios)
+print('print(Hola mundo)\t1\t1')
+print('Day 2\t3\t1')
+print('Day 3\t\t1')
+print('Day 4\t1\t1')
