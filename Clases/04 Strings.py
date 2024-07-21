@@ -38,6 +38,8 @@ print(len(nombre_completo))
 print('Es fácil aprender Python.\n¿Lo estas entendiendo?')#\n: nueva línea
 print('Clases\tTemas\tModulos')#\t: Tab significa(8 espacios)
 print('print(Hola mundo)\t1\t1')
-print('Day 2\t3\t1')
-print('Day 3\t\t1')
-print('Day 4\t1\t1')
+print('Variables        \t3\t1')
+print('Operadores       \t3\t1')
+print('Strings          \t3\t1')
+print('Este es un símbolo de barra invertida (\\)')
+print('En todos los lenguajes de programación comienza con \"¡Hola, mundo!\"') # para escribir una comilla doble dentro de una comilla simple
