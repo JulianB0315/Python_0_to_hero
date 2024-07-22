@@ -43,3 +43,25 @@ print('Operadores       \t3\t1')
 print('Strings          \t3\t1')
 print('Este es un símbolo de barra invertida (\\)')
 print('En todos los lenguajes de programación comienza con \"¡Hola, mundo!\"') # para escribir una comilla doble dentro de una comilla simple
+#-------------------------------------------------------------------------------------------------------------------------------------------
+#En Python hay formas para formatear cadenas de textos 
+#El operador “%” es utilizado ora formatear un conjunto de variables incluyendo una “tupla”(Una línea de tamaño fijo)
+print('Formateo')
+nombre01 = 'Diego'
+apellido01 = 'Alfonso'
+edad = 20
+print('Hola soy %s %s y mi edad es de %d años' %(nombre01, apellido01,edad))
+print('Hola soy {} {} y mi edad es de {} años'.format(nombre01,apellido01,edad))
+#%s - Cadena (o cualquier objeto con una representación de cadena, como números)
+#%d - Enteros
+#%f - Números de punto flotante
+#"%.número de dígitosf" - Números de punto flotante con precisión fija
+#
+radio = 10
+pi = 3.14
+area = pi * radio ** 2
+print('El área del círculo con un radio %d es %.2f.' %(radio, area))#el 2 se uso para poner los dos numeros despues del punto
+print('El área del círculo con un radio {} es {}.' .format(radio, area))
+#ahora con list
+libreria = ['Django', 'Flask', 'NumPy', 'Matplotlib','Pandas']
+print('Las siguientes son bibliotecas de Python:%s' %(libreria))
