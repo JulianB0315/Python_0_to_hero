@@ -52,6 +52,7 @@ apellido01 = 'Alfonso'
 edad = 20
 print('Hola soy %s %s y mi edad es de %d años' %(nombre01, apellido01,edad))
 print('Hola soy {} {} y mi edad es de {} años'.format(nombre01,apellido01,edad))
+print(f'Hola soy {nombre01} {apellido01} y mi edad es de {edad} años')
 #%s - Cadena (o cualquier objeto con una representación de cadena, como números)
 #%d - Enteros
 #%f - Números de punto flotante
@@ -62,6 +63,43 @@ pi = 3.14
 area = pi * radio ** 2
 print('El área del círculo con un radio %d es %.2f.' %(radio, area))#el 2 se uso para poner los dos numeros despues del punto
 print('El área del círculo con un radio {} es {}.' .format(radio, area))
+print(f'El área del círculo con un radio {radio} es {area}.')
 #ahora con list
 libreria = ['Django', 'Flask', 'NumPy', 'Matplotlib','Pandas']
 print('Las siguientes son bibliotecas de Python:%s' %(libreria))
+#-------------------------------------------------------------------------------------------------------------------------------------------
+#Esta Interpolación de cadenas /f-Strings es de Python 3,6 a mas
+a = 4
+b = 3
+print(f'{a} + {b} = {a +b}')
+print(f'{a} - {b} = {a - b}')
+print(f'{a} * {b} = {a * b}')
+print(f'{a} / {b} = {a / b:.2f}')
+print(f'{a} % {b} = {a % b}')
+print(f'{a} // {b} = {a // b}')
+print(f'{a} ** {b} = {a ** b}')
+#-------------------------------------------------------------------------------------------------------------------------------------------
+#Desempaquetado de caracteres 
+print('Desempaquetado de caracteres')
+lenguaje="python"
+a,b,c,d,e,f=lenguaje
+print(a)#p
+print(b)#y
+print(c)#t
+print(d)#h
+print(e)#o
+print(f)#n
+#ahora veamos la divison
+print('Division')
+first_letter = lenguaje[0]
+print(first_letter)#p
+first_letter = lenguaje[1:3]#yt
+print(first_letter)#p
+first_letter = lenguaje[-1]
+print(first_letter)#Con una menos iniciamos desde el final
+first_letter = lenguaje[1:]
+print(first_letter)#Imprime desde donde le indiques
+first_letter = lenguaje[::-1]
+print(first_letter)#Pondremos la palabra al reves 
+pto = lenguaje[0:6:2] 
+print(pto) # Pto 
