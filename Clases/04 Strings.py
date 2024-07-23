@@ -103,3 +103,4 @@ first_letter = lenguaje[::-1]
 print(first_letter)#Pondremos la palabra al reves 
 pto = lenguaje[0:6:2] 
 print(pto) # Pto 
+#-------------------------------------------------------------------------------------------------------------------------------------------
