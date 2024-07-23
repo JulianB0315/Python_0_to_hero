@@ -1,4 +1,4 @@
-# Operadores 
+# Strings
 
 >[!IMPORTANT]
 >## Recordatorio:
@@ -7,9 +7,9 @@
 
 >[!TAREAS]
 >##  Actividades:
->1. Crea una tabla de multiplicar con las operaciones y resultados por cada operación una fila. 
->2. Crea 3 cadenas de texto en diferentes variables, usando las diferentes formas de formatear.
->3. Crea una variable con tu nombre y desempaqueta letra por letra  
+>1. Crea una tabla de dos variables con todas las operaciones.
+>2. Crea cadenas de texto con variables usado Formateo.
+>3. Crea una variable con tu nombre y desempaqueta letra por letra. 
 
 >[!TIP]
 >## Y recuerda: 
