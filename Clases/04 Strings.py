@@ -104,3 +104,4 @@ print(first_letter)#Pondremos la palabra al reves
 pto = lenguaje[0:6:2] 
 print(pto) # Pto 
 #-------------------------------------------------------------------------------------------------------------------------------------------
+#Ahora ya estas list@ para el Modulo "https://github.com/JulianB0315/Python_0_to_hero/blob/main/Ejercicios/04%20Strings/04%20Strings.md"
