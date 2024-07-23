@@ -69,5 +69,5 @@ prueba=30
 #veamos si prueba si la variable sigue como str
 print(type(prueba))
 #Como vemos no funciona esto solo pasa en Python, pero es una mala practica por que puede generar errores
-##Ahora ya estas list@ para el primer Modulo "Cambios variables" https://github.com/JulianB0315/Python_0_to_hero/blob/main/Ejercicios/02%20Cambios%20de%20variables/02%20Cambios%20de%20variables.md
 #-------------------------------------------------------------------------------------------------------------------------------------------
+#Ahora ya estas list@ para el Modulo "Cambios variables" https://github.com/JulianB0315/Python_0_to_hero/blob/main/Ejercicios/02%20Cambios%20de%20variables/02%20Cambios%20de%20variables.md
