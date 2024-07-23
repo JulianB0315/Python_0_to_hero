@@ -10,7 +10,7 @@ string_02= 'Hola mundoooo!'  # No solo te limites a una letra crea tu oración
 print(string_02)             # Hola mundooo!
 print(len(string_02))
 string_03="Aprendemos python de una manera fácil"
-print(string_03)
+print(len(string_03))
 #-------------------------------------------------------------------------------------------------------------------------------------------
 #Podemos usar las comillas para pone nuestra cadena de texto en varias líneas
 multi_string='''Python es demasiado fácil de
