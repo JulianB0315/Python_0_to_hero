@@ -51,3 +51,39 @@ cadenas='Vamos cuatro clases de Python'
 print(cadenas.isidentifier())# Comprueba un identificador válido: comprueba si una cadena es un nombre de variable válido
 cadenas='Vamos_cuatro_clases_de_Python'
 print(cadenas.isidentifier())
+print('islower')#Comprueba si todos los caracteres del alfabeto en la cadena están en minúsculas
+cadenas='vamos cuatro clases de python'
+print(cadenas.islower())
+cadenas='Vamos cuatro clases de Python'
+print(cadenas.islower())
+print('isupper')
+cadenas='vamos cuatro clases de python'
+print(cadenas.isupper())
+cadenas='VAMOS CUATRO CLASES DE PYTHON'
+print(cadenas.isupper())
+print('join')#Devuelve una cadena concatenada
+web= ['HTML', 'CSS', 'JavaScript', 'React']
+resultado = ' '.join(web)
+print(resultado)
+resultado = ','.join(web)
+print(resultado)
+print('strip')#Elimina todos los caracteres dados a partir del principio y el final de la cadena
+cadenas='vamos cuatro clases de pythonnnnnnnnnnnnnnnn'
+print(cadenas.strip('noth'))
+print('replace')
+cadenas='Vamos cuatro clases de python'
+print(cadenas.replace('python','codigos'))
+print('split')#Divide la cadena, usando una cadena o espacio dado como separador
+print(cadenas.split())
+print('title')#Devuelve una cadena de título en caja
+print(cadenas.title())
+print('swapcase')# Convierte todos los caracteres en mayúsculas a minúsculas y todos los caracteres en minúsculas a caracteres en mayúsculas
+cadenas='vamos cuatro clases de python'
+print(cadenas.swapcase())
+cadenas='Vamos Cuatro Clases De Python'
+print(cadenas.swapcase())
+cadenas='cuatro clases de Python'
+print('startswith')#Comprueba si la Cadena Comienza con la Cadena Especificada
+print(cadenas.startswith('cuatro'))
+cadenas='4 clases de Python'
+print(cadenas.startswith('cuatro'))
