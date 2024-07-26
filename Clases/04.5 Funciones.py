@@ -88,4 +88,3 @@ print(cadenas.startswith('cuatro'))
 cadenas='4 clases de Python'
 print(cadenas.startswith('cuatro'))
 #-------------------------------------------------------------------------------------------------------------------------------------------
-#Ahora ya estas list@ para el primer Modulo "05 Funciones" https://github.com/JulianB0315/Python_0_to_hero/blob/main/Ejercicios/05%20Funciones/05%20Funciones.md
