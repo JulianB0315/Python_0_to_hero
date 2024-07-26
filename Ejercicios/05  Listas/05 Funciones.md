@@ -1,4 +1,4 @@
-# Funciones
+# Listas
 
 >[!IMPORTANT]
 >## Recordatorio:
@@ -7,7 +7,7 @@
 
 >[!TAREAS]
 >##  Actividades:
->1. 
+>1.  
 >2. 
 
 >[!TIP]
