@@ -21,6 +21,7 @@ lacteaos= ['leche', 'mantequilla', 'queso', 'yoghurt']
 web= ['HTML', 'CSS', 'JS', 'React','Redux', 'Node', 'MongDB']
 paises = ['Argentina', 'Colombia', 'Chile', 'Bolivia', 'Perú']
 
+#mostramos
 print('Frutas:', frutas)
 print('Cantidad de frutas:', len(frutas))
 print('Vegetales:', vegetales)
@@ -31,3 +32,5 @@ print('Web:', web)
 print('NCantidad de web:', len(web))
 print('Paises:', paises)
 print('Cantidad de paises:', len(paises))
+#Una lista puede contener diferentes tipos de elementos
+lista = ['Juan', 250, True, {'Pais':'Perú', 'Cuidad':'Lima'}]
