@@ -6,3 +6,10 @@
 #Set: es una colección que no está ordenada, no está indexada y no es modificable, pero podemos agregar nuevos elementos al conjunto. No se permiten miembros duplicados.
 #Dictionary:es una colección que es desordenada, cambiante(modificable) e indexada. Sin miembros duplicados.
 #Una lista es la recopilación de diferentes tipos de datos que están ordenados y modificables(mutables). Una lista puede estar vacía o puede tener diferentes elementos de tipo de datos.
+#-------------------------------------------------------------------------------------------------------------------------------------------
+#Ahora que sabemos todo esto hagamos una lista
+#Hay dos maneras de hacer lista como paréntesis o con corchetes
+empty_list = list() #Dentro de los paréntesis debes de poner los elementos de tu lista 
+print(len(empty_list))#0 por no haber elementos
+empty_list = [] #Dentro de los corchetes debes de poner los elementos 
+print(len(empty_list)) # 0 por no haber elementos
