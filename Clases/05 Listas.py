@@ -13,3 +13,21 @@ empty_list = list() #Dentro de los paréntesis debes de poner los elementos de t
 print(len(empty_list))#0 por no haber elementos
 empty_list = [] #Dentro de los corchetes debes de poner los elementos 
 print(len(empty_list)) # 0 por no haber elementos
+#Usemos las función len() para contar los elementos de la lista 
+#Creamos las listas 
+frutas = ['platano', 'naranja', 'mango', 'manzana']                
+vegetales = ['Tomate', 'Papa', 'Palta','Cebolla', 'Zanahoria']     
+lacteaos= ['leche', 'mantequilla', 'queso', 'yoghurt']             
+web= ['HTML', 'CSS', 'JS', 'React','Redux', 'Node', 'MongDB']
+paises = ['Argentina', 'Colombia', 'Chile', 'Bolivia', 'Perú']
+
+print('Frutas:', frutas)
+print('Cantidad de frutas:', len(frutas))
+print('Vegetales:', vegetales)
+print('Cantidad de vegetales:', len(vegetales))
+print('Lacteos',lacteaos)
+print('Cantidad de lacteos:', len(lacteaos))
+print('Web:', web)
+print('NCantidad de web:', len(web))
+print('Paises:', paises)
+print('Cantidad de paises:', len(paises))
