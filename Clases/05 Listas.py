@@ -1,3 +1,4 @@
+#-------------------------------------------------------------------------------------------------------------------------------------------
 #Anteriormente vimos las listas, pero solo como un tipo de dato, pero ¿Qué son las listas y cuáles son?
 #Hay cuatro tipos de datos de recopilación en Python
 #Estos son list,Tuple,Set,Dictionary
@@ -20,7 +21,6 @@ vegetales = ['Tomate', 'Papa', 'Palta','Cebolla', 'Zanahoria']
 lacteaos= ['leche', 'mantequilla', 'queso', 'yoghurt']             
 web= ['HTML', 'CSS', 'JS', 'React','Redux', 'Node', 'MongDB']
 paises = ['Argentina', 'Colombia', 'Chile', 'Bolivia', 'Perú']
-
 #mostramos
 print('Frutas:', frutas)
 print('Cantidad de frutas:', len(frutas))
@@ -32,5 +32,39 @@ print('Web:', web)
 print('NCantidad de web:', len(web))
 print('Paises:', paises)
 print('Cantidad de paises:', len(paises))
+#-------------------------------------------------------------------------------------------------------------------------------------------
 #Una lista puede contener diferentes tipos de elementos
 lista = ['Juan', 250, True, {'Pais':'Perú', 'Cuidad':'Lima'}]
+#-------------------------------------------------------------------------------------------------------------------------------------------
+#Ahora como acedemos a los datos de la lista, para usemos la indexación positiva
+#Accedemos a cada elemento de una lista utilizando su índice. Un índice de lista comienza desde 0.
+frutas = ['platano', 'naranja', 'mango', 'manzana']
+#            0           1         2         3
+#Sabiendo esto como llámanos los elementos de la lista
+fruta_0=frutas[0]
+print(fruta_0)
+fruta_1=frutas[1]
+print(fruta_1)
+fruta_2=frutas[2]
+print(fruta_2)
+fruta_3=frutas[3]
+print(fruta_3)
+last_index = len(frutas) - 1#Cuentas los elementos de frutas y al resultado le resta 1 
+last_fruta = frutas[last_index]
+#-------------------------------------------------------------------------------------------------------------------------------------------
+#Acceso a Elementos de Lista Usando Indexación Negativa
+#Es casi lo mismo, pero usando numero negativos
+#Medios de indexación negativos que comienzan desde el final, - 1 se refiere al último elemento, - 2 se refiere al segundo último elemento.
+vegetales = ['Tomate', 'Papa', 'Palta','Cebolla', 'Zanahoria']
+#              -5       -4        -3      -2           -1
+vegetal_1=vegetales[-1]
+print(vegetal_1)
+vegetal_2=vegetales[-2]
+print(vegetal_2)
+vegetal_3=vegetales[-3]
+print(vegetal_3)
+vegetal_4=vegetales[-4]
+print(vegetal_4)
+vegetal_5=vegetales[-5]
+print(vegetal_5)
+#-------------------------------------------------------------------------------------------------------------------------------------------
