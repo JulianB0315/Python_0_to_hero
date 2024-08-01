@@ -35,7 +35,7 @@ def draw_text(turtle, text, position, color, font_size, font_style):
 def draw_sunflower():
     screen = t.Screen()
     screen.bgcolor("lightblue")
-    screen.title("Te quiero")
+    screen.title("Te quiero mucho")
 
     flower = t.Turtle()
     flower.speed(10)
