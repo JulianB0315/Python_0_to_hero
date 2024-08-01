@@ -68,3 +68,23 @@ print(vegetal_4)
 vegetal_5=vegetales[-5]
 print(vegetal_5)
 #-------------------------------------------------------------------------------------------------------------------------------------------
+#Desempaquetar Artículos de la Lista
+#Se crea una lista y para llamar los elementos le damos variables a cada uno
+Alumnos=('Juan','Pedro','Diego','Juan','Daniel')
+#Damos variables
+T1,T2,T3,*restante=Alumnos#Usamos * y damos un nombre para elementos sobrantes  
+print(T1)
+print(T2)
+print(T3)
+print(restante)
+#Otros ejemplos de como desempaquetar
+num=(1,2,3,4,5,6,7,8,9,10)
+num1,num2,num3,num4,num5,*resnum,num9,num10=num
+print(num1)
+print(num2)
+print(num3)
+print(num4)
+print(num5)
+print(resnum)
+print(num9)
+print(num10)
