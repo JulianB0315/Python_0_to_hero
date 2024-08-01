@@ -88,3 +88,15 @@ print(num5)
 print(resnum)
 print(num9)
 print(num10)
+#-------------------------------------------------------------------------------------------------------------------------------------------
+#Ahora probemos cortando elementos de una para tomas solo los que se necesita
+#Con la indexación positiva será así
+#Indexación positiva: Podemos especificar un rango de índices positivos especificando el inicio
+#El final y el paso, el valor de retorno será una nueva lista.
+paises = ['Argentina', 'Colombia', 'Chile', 'Bolivia', 'Perú']#(valores predeterminados para el inicio = 0, final = len(lst) - 1 (último artículo), paso = 1)
+todo=paises[0:5]#Al poner una limite mayor al de número de elementos (comenzando desde 0) tomamos todos
+print(todo)#Devuelve todo 
+todo_2=paises=paises[0:]#Al no poner un final devuelve todo 
+print(todo_2)
+colombia_chile=paises[1:3]#no incluye el primer índice, dando limite hasta Bolivia si incluirlo
+print(colombia_chile)
