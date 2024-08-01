@@ -72,7 +72,7 @@ print(vegetal_5)
 #Se crea una lista y para llamar los elementos le damos variables a cada uno
 Alumnos=('Juan','Pedro','Diego','Juan','Daniel')
 #Damos variables
-T1,T2,T3,*restante=Alumnos#Usamos * y damos un nombre para elementos sobrantes  
+T1,T2,T3,*restante=Alumnos#Usamos * y damos un nombre para elementos que no tienen variable dependiendo su posición
 print(T1)
 print(T2)
 print(T3)
