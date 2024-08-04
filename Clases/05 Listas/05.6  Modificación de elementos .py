@@ -67,7 +67,7 @@ lista2=['item7','item8','item9','item10','item11','item12']
 lista3=lista+lista2
 print(lista3)
 #-------------------------------------------------------------------------------------------------------------------------------------------
-#Unirse usando el método extend() El extender() el método permite añadir una lista en una lista. Vea el ejemplo a continuación.
+#Unirse usando el método extend() El extend() el método permite añadir una lista en una lista. Vea el ejemplo a continuación.
 numeros=[1,3,5,6,8]
 numeros2=[2,4,7,9]
 numeros.extend(numeros2)
