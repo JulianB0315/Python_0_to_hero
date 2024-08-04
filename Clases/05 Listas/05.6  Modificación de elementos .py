@@ -47,6 +47,60 @@ alumnos.remove(borrar)
 print(alumnos)
 #-------------------------------------------------------------------------------------------------------------------------------------------
 #El clear() método vacía la lista:
-lista=['item1','item2','item3','item4','item5','item6',]
+lista=['item1','item2','item3','item4','item5','item6']
 lista.clear()
 print(lista)
+#-------------------------------------------------------------------------------------------------------------------------------------------
+#Es posible copiar una lista reasignándola a una nueva variable de la siguiente manera: list2 = list1.
+#Ahora, list2 es una referencia de list1, cualquier cambio que hagamos en list2 también modificará el original, list1.
+#Pero hay muchos casos en los que no nos gusta modificar el original, sino que nos gusta tener una copia diferente.
+#Una de las formas de evitar el problema anterior es usar copy().
+vegetales = ['Tomate', 'Papa', 'Palta','Cebolla', 'Zanahoria']
+copia_vegetales=vegetales.copy()
+print(copia_vegetales)
+#-------------------------------------------------------------------------------------------------------------------------------------------
+#Ahora unamos listas
+#Hay varias formas de unir o concatenar dos o más listas en Python.
+#Plus Operador (+)
+lista=['item1','item2','item3','item4','item5','item6']
+lista2=['item7','item8','item9','item10','item11','item12']
+lista3=lista+lista2
+print(lista3)
+#-------------------------------------------------------------------------------------------------------------------------------------------
+#Unirse usando el método extend() El extender() el método permite añadir una lista en una lista. Vea el ejemplo a continuación.
+numeros=[1,3,5,6,8]
+numeros2=[2,4,7,9]
+numeros.extend(numeros2)
+print(numeros)
+#-------------------------------------------------------------------------------------------------------------------------------------------
+#Contar Artículos en una Lista
+#El count() método devuelve el número de veces que aparece un elemento en una lista:
+frutas = ['platano', 'naranja', 'mango', 'manzana']
+print(frutas.count('mango'))
+print(frutas.count('naranja'))
+#-------------------------------------------------------------------------------------------------------------------------------------------
+#El index() método devuelve el índice de un elemento en la lista:
+lacteaos= ['leche', 'mantequilla', 'queso', 'yoghurt']
+print(lacteaos.index('queso'))
+print(lacteaos.index('mantequilla'))
+#-------------------------------------------------------------------------------------------------------------------------------------------
+#Revertir una Lista
+#El reverse() el método invierte el orden de una lista.
+años=[2005,2003,2001,2009,2004,2014,2006]
+años.reverse()
+print(años)
+#-------------------------------------------------------------------------------------------------------------------------------------------
+#Lista de Clasificación de Artículos
+#Para ordenar listas que podemos usar sort() método o sorted() funciones integradas. 
+#El sort() el método reordena los elementos de la lista en orden ascendente y modifica la lista original. Si un argumento de sort() el método inverso es igual a verdadero, organizará la lista en orden descendente.
+años=[2005,2003,2001,2009,2004,2014,2006]
+años.sort()
+print(años)
+años.sort(reverse=True)
+print(años)
+#sorted(): devuelve la lista ordenada sin modificar la lista original Ejemplo:
+frutas = ['platano', 'naranja', 'mango', 'manzana']
+print(sorted(años))
+print(sorted(años,reverse=True))
+#-------------------------------------------------------------------------------------------------------------------------------------------
+#Ahora ya estas list@ para el Modulo "https://github.com/JulianB0315/Python_0_to_hero/blob/main/Ejercicios/05%20%20Listas/05%20Listas%20.md"
