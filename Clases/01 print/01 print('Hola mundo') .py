@@ -1,6 +1,10 @@
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━🎮
+# ****🤖Programador:Julia Burga Bracamonte******
+# **********************************************
+# ****🔒GitHub:https://github.com/JulianB0315 **    
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━🏀
 # Algo muy bueno de python desde ser fácil de aprender es su propia Wiki https://docs.python.org/es/3/ desde como Instalar y una ayuda de donde apoyarse
 # Comenzamos de un "Print" escribimos del print ya continuación abrimos y cerramos comillas dobles o simples y paréntesis
-
 print("Hola mundo")
 print('Hola mundo')
 #-------------------------------------------------------------------------------------------------------------------------------------------

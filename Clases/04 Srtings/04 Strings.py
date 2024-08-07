@@ -1,3 +1,8 @@
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━🎮
+# ****🤖Programador:Julia Burga Bracamonte******
+# **********************************************
+# ****🔒GitHub:https://github.com/JulianB0315 **    
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━🏀
 #El texto es un tipo de datos de cadena. Cualquier tipo de datos escrito como texto es una cadena. 
 #Cualquier dato bajo cotización simple, doble o triple son cadenas.
 #Existen diferentes métodos de cadena y funciones integradas para tratar los tipos de datos de cadena.
