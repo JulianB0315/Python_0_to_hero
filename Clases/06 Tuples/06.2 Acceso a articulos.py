@@ -21,3 +21,24 @@ arti2 = vegetales[-3]
 print(arti2)
 ulti_vege= vegetales[-1]
 print(ulti_vege)
+#Ahora aprendamos a cortar los artículos de los tuples 
+#Podemos cortar una subtupla especificando un rango de índices por dónde empezar y por dónde terminar en la tupla, 
+#el valor de retorno será una nueva tupla con los elementos especificados.
+#Rango de index positivo
+tpl=('item1','item2','item3','item4','item5')
+todo=tpl[0:5]
+print(todo)
+todos=tpl[0:]
+print(todos)
+dos_items=tpl[1:3]
+print(dos_items)
+#-------------------------------------------------------------------------------------------------------------------------------------------
+#Rango de index negativo
+frutas=('manzana','pera','durazno','sandia')
+todas = frutas[-4:]
+print(todas)
+pera_sandia = frutas[-3:-1]
+print(pera_sandia)
+todas2 = frutas[-3:]
+print(todas2)
+#-------------------------------------------------------------------------------------------------------------------------------------------
