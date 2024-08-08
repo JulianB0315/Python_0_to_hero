@@ -4,7 +4,7 @@
 # ****🔒GitHub:https://github.com/JulianB0315 **    
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━🏀
 #-------------------------------------------------------------------------------------------------------------------------------------------
-#Ahora cambiemos de tuples a lsitas 
+#Ahora cambiemos de tuples a listas 
 #Podemos cambiar tuplas a listas y listas a tuplas. Tuple es inmutable si queremos modificar una tupla debemos cambiarla a una lista.
 tpl = ('item1', 'item2', 'item3','item4','item5','item6','item7')
 lst = list(tpl)
@@ -23,10 +23,12 @@ print('item100' in tpl)
 tpl1 = ('item1', 'item2', 'item3')
 tpl2 = ('item4', 'item5','item6')
 tpl3 = tpl1 + tpl2
+print(tpl3)
 #-------------------------------------------------------------------------------------------------------------------------------------------
 #Eliminar Tuples
 #No es posible eliminar un solo elemento en una tupla, pero es posible eliminar la tupla usando del.
 tpl1 = ('item1', 'item2', 'item3')
 del tpl1
+#print(tpl1) no existe
 #-------------------------------------------------------------------------------------------------------------------------------------------
 #Ahora ya estas list@ para el Modulo "https://github.com/JulianB0315/Python_0_to_hero/blob/main/Ejercicios/06%20Tuples/05%20Listas%20.md"
