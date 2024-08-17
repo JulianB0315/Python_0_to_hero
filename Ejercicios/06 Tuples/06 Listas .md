@@ -7,10 +7,10 @@
 
 >[!TASKS]
 >##  Actividades:
-1. Crea 4 tuples sobre web, program, database y framework.
-2. Con el tuples web accede a sus artículos con indexación positiva y negativa.
-3. Con el program convertirlo de una lista y elimina.
-4. Y con las listas database únela con framework.
+>1. Crea 4 tuples sobre web, program, database y framework.
+>2. Con el tuples web accede a sus artículos con indexación positiva y negativa.
+>3. Con el program convertirlo de una lista y elimina.
+>4. Y con las listas database únela con framework.
 
 >[!TIP]
 >## Y recuerda: 
