@@ -101,4 +101,4 @@ print(symmetric_difference)  # {1, 2, 3, 6, 7, 8}
 symmetric_difference = A ^ B
 print(symmetric_difference)  # {1, 2, 3, 6, 7, 8}
 #-------------------------------------------------------------------------------------------------------------------------------------------
-#Ahora ya estas list@ para el Modulo ""
+#Ahora ya estas list@ para el Modulo "https://github.com/JulianB0315/Python_0_to_hero/blob/main/Ejercicios/07%20Sets/07%20Sets.md"
