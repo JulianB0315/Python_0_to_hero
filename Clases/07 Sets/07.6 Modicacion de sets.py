@@ -51,3 +51,54 @@ set2 = {3, 4, 5, 6}
 interseccion = set1 & set2  # Encuentra la intersección
 print(interseccion)  # Output: {3, 4}
 #-------------------------------------------------------------------------------------------------------------------------------------------
+#Subconjunto (Subset)
+#Un conjunto A es un subconjunto de un conjunto B si todos los elementos de A están en B. 
+#Para comprobar esto, puedes usar el método issubset() o el operador <=.
+A = {1, 2, 3}
+B = {1, 2, 3, 4, 5}
+# Usando el método issubset()
+print(A.issubset(B))  # True
+# Usando el operador <=
+print(A <= B)  # True
+#Superconjunto (Superset)
+#Un conjunto A es un superconjunto de un conjunto B si todos los elementos de B están en A. 
+#Para comprobar esto, puedes usar el método issuperset() o el operador >=.
+A = {1, 2, 3, 4, 5}
+B = {1, 2, 3}
+# Usando el método issuperset()
+print(A.issuperset(B))  # True
+# Usando el operador >=
+print(A >= B)  # True
+#Subconjunto estricto y superconjunto estricto
+#Si quieres verificar si un conjunto A es un subconjunto estricto
+#(es decir, si A es subconjunto de B pero no es igual a B) o un superconjunto estricto (es decir, 
+#si A es superconjunto de B pero no es igual a B),
+#puedes usar los métodos issubset() y issuperset() con la condición de que los conjuntos no sean iguales:
+A = {1, 2, 3}
+B = {1, 2, 3, 4, 5}
+# Subconjunto estricto (A es subconjunto de B, pero no es igual a B)
+print(A < B)  # True
+# Superconjunto estricto (A es superconjunto de B, pero no es igual a B)
+print(B > A)  # True
+#-------------------------------------------------------------------------------------------------------------------------------------------
+#Comprobación de la diferencia entre dos conjuntos
+#La diferencia entre dos conjuntos A y B devuelve un nuevo conjunto con los elementos que están en A pero no en B.
+A = {1, 2, 3, 4, 5}
+B = {4, 5, 6, 7, 8}
+# Usando el método difference()
+difference_A_B = A.difference(B)
+print(difference_A_B)  # {1, 2, 3}
+# Usando el operador -
+difference_A_B = A - B
+print(difference_A_B)  # {1, 2, 3}
+#Diferencia simétrica (Elementos en A o B, pero no en ambos):}
+#Si deseas encontrar los elementos que están en A o en B, pero no en ambos (es decir, la diferencia simétrica), 
+#puedes usar el método symmetric_difference() o el operador ^.
+# Usando el método symmetric_difference()
+symmetric_difference = A.symmetric_difference(B)
+print(symmetric_difference)  # {1, 2, 3, 6, 7, 8}
+# Usando el operador ^
+symmetric_difference = A ^ B
+print(symmetric_difference)  # {1, 2, 3, 6, 7, 8}
+#-------------------------------------------------------------------------------------------------------------------------------------------
+#Ahora ya estas list@ para el Modulo ""
