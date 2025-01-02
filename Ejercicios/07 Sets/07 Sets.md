@@ -29,6 +29,7 @@
 > - Crea una cadena de texto frase = "Me gusta aprender Python y disfrutar de la programación".
 > - Utiliza el método split() para separar la frase en palabras y conviértelas en un conjunto para obtener las palabras únicas.
 > - Muestra cuántas palabras únicas hay en la frase.
+
 >[!TIP]
 >## Y recuerda: 
 ># "Si puedes imaginarlo puedes programarlo"
