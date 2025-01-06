@@ -5,7 +5,7 @@
 >1. Los ejercicios se separan por módulos como “Hola mundo” conteniendo de 2 a 4 actividades relacionadas con la clase previamente leída. 
 >2. Para mandar tu respuesta recuerda hacer un pull requests el la carpeta del módulo y también mandar el archivo con el formato **"[titulo del modulo] - [Nombre de usuario de GitHub]"**
 
->[!TASKS]
+>[!NOTE]
 >##  Actividades:
 > ## **Ejercicio 1: Diccionario de mascota**
 > 1. Crea un diccionario llamado `pet` con las claves: `name`, `type`, `age` y `color`. Asigna valores a estas claves directamente.
