@@ -14,9 +14,6 @@
 > 4. Modifica el valor de la clave `age` para incrementarlo en 1.
 > 5. Elimina la clave `color` del diccionario.
 > 6. Imprime el diccionario final.
-
----
-
 > ## **Ejercicio 2: Información personal**
 > 1. Crea un diccionario llamado `person` con las siguientes claves:
 >    - `first_name`
@@ -29,9 +26,6 @@
 > 5. Cambia el valor de la clave `age` para que sea un número 5 años mayor.
 > 6. Elimina la clave `phone`.
 > 7. Muestra el diccionario actualizado.
-
----
-
 > ## **Ejercicio 3: Almacén de productos**
 > 1. Crea un diccionario llamado `product` con las claves: `name`, `price`, `quantity`.
 > 2. Asigna valores a estas claves directamente.
@@ -40,9 +34,6 @@
 > 5. Agrega una nueva clave llamada `category` con un valor de categoría del producto.
 > 6. Elimina la clave `price`.
 > 7. Imprime el diccionario final.
-
----
-
 > ## **Ejercicio 4: Libro favorito**
 > 1. Crea un diccionario llamado `book` con las claves: `title`, `author`, `year`, `pages`.
 > 2. Asigna valores a estas claves.
@@ -51,9 +42,6 @@
 > 5. Muestra el título y el autor del libro.
 > 6. Elimina la clave `year` del diccionario.
 > 7. Imprime el diccionario actualizado.
-
----
-
 > ## **Ejercicio 5: Diccionario de comida**
 > 1. Crea un diccionario llamado `food` con las claves: `name`, `type`, `calories`.
 > 2. Asigna valores a las claves directamente.
@@ -61,9 +49,6 @@
 > 4. Cambia el valor de `calories` para reducirlo en 50.
 > 5. Elimina la clave `type`.
 > 6. Muestra el diccionario completo.
-
----
-
 > ## **Ejercicio 6: Actualización de contactos**
 > 1. Crea un diccionario llamado `contact` con las claves: `name`, `email`, `phone`.
 > 2. Asigna valores iniciales a las claves.
