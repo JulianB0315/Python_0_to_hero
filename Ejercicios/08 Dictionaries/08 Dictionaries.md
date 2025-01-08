@@ -1,4 +1,4 @@
-# Tuples
+# Dictionaries
 
 >[!IMPORTANT]
 >## Recordatorio:
