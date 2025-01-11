@@ -1,4 +1,10 @@
-##Ahora aprendamos las variables
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━🎮
+# ****🤖Programador:Julian Burga Bracamonte******
+# **********************************************
+# ****🔒GitHub:https://github.com/JulianB0315 **    
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━🏀
+# -------------------------------------------------------------------------------------------------------------------------------------------
+#Ahora aprendamos las variables
 #Para tener una buena base y practica a la hora de escribir variables debemos tener en cuenta los siente ejemplos:
 #Forma correcta:
 

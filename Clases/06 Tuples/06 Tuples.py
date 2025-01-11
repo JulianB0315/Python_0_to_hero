@@ -1,5 +1,5 @@
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━🎮
-# ****🤖Programador:Julia Burga Bracamonte******
+# ****🤖Programador:Julian Burga Bracamonte******
 # **********************************************
 # ****🔒GitHub:https://github.com/JulianB0315 **    
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━🏀
