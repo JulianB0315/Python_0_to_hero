@@ -1,4 +1,4 @@
-# Modulos
+# Compresión de listas
 
 >[!IMPORTANT]
 >## Recordatorio:
