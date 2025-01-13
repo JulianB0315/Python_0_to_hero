@@ -56,7 +56,6 @@
 > # lista_colores_rgb(3)
 > # ['rgb(5, 55, 175)', 'rgb(50, 105, 100)', 'rgb(15, 26, 80)']
 > ```
-
 > ### **Ejercicio 6**:  
 > Escribe una función llamada `generar_colores` que pueda generar una lista de colores hexadecimales o RGB. La función recibirá dos parámetros:  
 > 1. El tipo de color: `'hexa'` o `'rgb'`.  
@@ -70,8 +69,6 @@
 > # ['rgb(33,79,176)', 'rgb(120,55,90)']
 > ```
 
->[!IMPORTANT]
->## Crea un fichero para esta actividad
 
 >[!TIP]
 >## Y recuerda: 
