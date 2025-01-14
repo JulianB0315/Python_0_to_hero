@@ -19,6 +19,13 @@ Este error ocurre cuando el código tiene un problema de sintaxis y no puede ser
 if True
     print("Hola")
 ```
+```shell
+  File "<stdin>", line 1
+    if True
+           ^
+SyntaxError: expected ':'
+```
+
 #### Solución:
 Asegúrate de que la sintaxis sea correcta:
 ```python
@@ -35,6 +42,12 @@ Se produce cuando se intenta usar una variable o función que no ha sido definid
 ```python
 print(nombre)
 ```
+```shell
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'nombre' is not defined
+```
+
 #### Solución:
 Define la variable antes de usarla:
 ```python
@@ -52,6 +65,12 @@ Ocurre cuando intentas acceder a un índice que no existe en una lista.
 lista = [1, 2, 3]
 print(lista[5])
 ```
+```shell
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: list index out of range
+```
+
 #### Solución:
 Asegúrate de que el índice esté dentro del rango:
 ```python
@@ -71,6 +90,12 @@ Sucede cuando intentas importar un módulo que no está instalado o no existe.
 ```python
 import mod_inexistente
 ```
+```shell
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'mod_inexistente'
+```
+
 #### Solución:
 Instala o corrige el nombre del módulo:
 ```bash
@@ -91,6 +116,12 @@ Ocurre cuando intentas acceder a un atributo o método que no existe para un obj
 texto = "Hola"
 texto.apender("!")
 ```
+```shell
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'str' object has no attribute 'apender'
+```
+
 #### Solución:
 Verifica los métodos disponibles para el objeto:
 ```python
@@ -109,6 +140,12 @@ Se produce cuando intentas acceder a una clave que no existe en un diccionario.
 diccionario = {"nombre": "Juan"}
 print(diccionario["edad"])
 ```
+```shell
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: 'edad'
+```
+
 #### Solución:
 Usa el método `get` para proporcionar un valor predeterminado:
 ```python
@@ -125,6 +162,12 @@ Se da cuando realizas una operación entre tipos incompatibles.
 ```python
 print("Hola" + 5)
 ```
+```shell
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: can only concatenate str (not "int") to str
+```
+
 #### Solución:
 Convierte los tipos apropiadamente:
 ```python
@@ -140,6 +183,12 @@ Sucede cuando no se puede importar una función o clase de un módulo.
 ```python
 from math import raiz
 ```
+```shell
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ImportError: cannot import name 'raiz' from 'math'
+```
+
 #### Solución:
 Asegúrate de usar los nombres correctos:
 ```python
@@ -155,6 +204,12 @@ Se produce cuando una función recibe un argumento con el tipo correcto pero un 
 ```python
 numero = int("Hola")
 ```
+```shell
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: 'Hola'
+```
+
 #### Solución:
 Verifica los valores antes de convertirlos:
 ```python
@@ -172,6 +227,12 @@ Ocurre cuando intentas dividir un número por cero.
 ```python
 resultado = 10 / 0
 ```
+```shell
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ZeroDivisionError: division by zero
+```
+
 #### Solución:
 Verifica que el divisor no sea cero:
 ```python
@@ -186,3 +247,4 @@ else:
 
 ## Resumen
 Estos errores son comunes al programar en Python, pero con buenas prácticas y validaciones adecuadas puedes evitarlos y solucionarlos rápidamente. ¡Sigue practicando para mejorar tus habilidades!
+
