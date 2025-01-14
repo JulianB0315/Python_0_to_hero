@@ -8,11 +8,7 @@
 >[!NOTE]
 > ### Actividades
 ># Ejercicios: Nivel 1
-> 1. **Explicación y comparación:**
-> - Explica la diferencia entre `map`, `filter` y `reduce` con ejemplos prácticos.
-> - Explica la diferencia entre funciones de orden superior, closures y decoradores.
-> - Define una función de llamada (callback) para usarla con `map`, `filter` o `reduce`.
-> 2. **Usar bucles `for`:**
+> 1. **Usar bucles `for`:**
 > - Usa un bucle `for` para imprimir cada país en una lista `countries = ["Estonia", "Finland", "Sweden", "Denmark", "Norway"]`.
 > - Usa un bucle `for` para imprimir cada nombre en una lista `names = ["Alice", "Bob", "Charlie", "Diana"]`.
 > - Usa un bucle `for` para imprimir cada número en una lista `numbers = [1, 2, 3, 4, 5]`.
