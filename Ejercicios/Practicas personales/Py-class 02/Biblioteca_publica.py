@@ -1,6 +1,6 @@
-import time
-import os
-import random
+# import time
+# import os
+# import random
 
 Libros = [
     {"titulo": "El Resplandor", "autor": "Stephen King", "genero": "Terror", "fecha_emision": "1977", "estado": "disponible", "precio": 25.0},
@@ -65,8 +65,8 @@ def menu():
         buscar_libro()
     elif opcion == "5":
         print("Gracias por usar la biblioteca")
-    elif opcion == "6":
-        carrera_de_buses()
+    # elif opcion == "6":
+    #     carrera_de_buses()
     else:
         print("Opción inválida")
         menu()
@@ -115,35 +115,35 @@ def buscar_libro():
     else:
         print("Libro no encontrado")
     menu()
-def carrera_de_buses():
-    def clear_screen():
-        os.system('cls' if os.name == 'nt' else 'clear')
+# def carrera_de_buses():
+#     def clear_screen():
+#         os.system('cls' if os.name == 'nt' else 'clear')
 
-    print("Carrera de buses")
-    buses = [
-        {"nombre": "El Chino      🏁", "velocidad": random.randint(1, 100), "distancia": 0},
-        {"nombre": "El loro       🏁", "velocidad": random.randint(1, 100), "distancia": 0},
-        {"nombre": "Todo Vise     🏁", "velocidad": random.randint(1, 100), "distancia": 0},
-        {"nombre": "Modelo        🏁", "velocidad": random.randint(1, 100), "distancia": 0},
-        {"nombre": "Mototaxi toro 🏁", "velocidad": random.randint(1, 100), "distancia": 0}
-    ]
-    distancia_meta = 1000
-    ganador = None
+#     print("Carrera de buses")
+#     buses = [
+#         {"nombre": "El Chino      🏁", "velocidad": random.randint(1, 100), "distancia": 0},
+#         {"nombre": "El loro       🏁", "velocidad": random.randint(1, 100), "distancia": 0},
+#         {"nombre": "Todo Vise     🏁", "velocidad": random.randint(1, 100), "distancia": 0},
+#         {"nombre": "Modelo        🏁", "velocidad": random.randint(1, 100), "distancia": 0},
+#         {"nombre": "Mototaxi toro 🏁", "velocidad": random.randint(1, 100), "distancia": 0}
+#     ]
+#     distancia_meta = 1000
+#     ganador = None
 
-    while not ganador:
-        clear_screen()
-        for bus in buses:
-            bus["velocidad"] = random.randint(1, 100)  # Cambiar la velocidad en cada iteración
-            bus["distancia"] += bus["velocidad"]
-            if bus["distancia"] >= distancia_meta:
-                ganador = bus["nombre"]
+#     while not ganador:
+#         clear_screen()
+#         for bus in buses:
+#             bus["velocidad"] = random.randint(1, 100)  # Cambiar la velocidad en cada iteración
+#             bus["distancia"] += bus["velocidad"]
+#             if bus["distancia"] >= distancia_meta:
+#                 ganador = bus["nombre"]
         
-        for bus in buses:
-            barra = "#" * (bus["distancia"] * 50 // distancia_meta)
-            print(f"{bus['nombre']}: {barra} {bus['distancia']}m")
+#         for bus in buses:
+#             barra = "#" * (bus["distancia"] * 50 // distancia_meta)
+#             print(f"{bus['nombre']}: {barra} {bus['distancia']}m")
         
-        time.sleep(1)
+#         time.sleep(1)
 
-    print(f"\n{ganador} ha ganado la carrera")
+#     print(f"\n{ganador} ha ganado la carrera")
 
 inicio()
