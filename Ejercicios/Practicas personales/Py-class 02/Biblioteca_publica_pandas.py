@@ -1,5 +1,6 @@
 import pandas as pd
 import datetime as dt
+import matplotlib.pyplot as plt
 
 Libros = [
     {"titulo": "El Resplandor", "autor": "Stephen King", "genero": "Terror", "fecha_emision": "1977", "estado": "disponible", "precio": 25.0},
@@ -97,6 +98,8 @@ def ver_libros():
 
     if opcion == "1":
         print(df_libros)
+        df_libros['estado'].value_counts().plot(kind='bar', title='Estados de los libros')
+        plt.show()
     elif opcion == "2":
         print(df_libros[df_libros['estado'] == 'disponible'])
     elif opcion == "3":
