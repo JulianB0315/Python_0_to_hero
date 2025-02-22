@@ -1,0 +1,61 @@
+ID,Producto,Categoría,Stock,Precio Unitario,Proveedor
+1,Laptop,Electrónica,10,1500.0,TechCorp
+2,Mouse,Electrónica,50,20.0,Peripherals Inc.
+3,Silla Gamer,Muebles,5,250.0,FurniStore
+4,Escritorio,Muebles,7,400.0,FurniStore
+5,Teclado,Electrónica,30,45.0,Peripherals Inc.
+6,Monitor,Electrónica,15,300.0,TechCorp
+7,Impresora,Electrónica,8,120.0,PrintWorks
+8,Tablet,Electrónica,20,200.0,TechCorp
+9,Smartphone,Electrónica,25,800.0,MobileWorld
+10,Router,Electrónica,40,70.0,NetGear
+11,Disco Duro,Electrónica,60,100.0,Storage Solutions
+12,Memoria USB,Electrónica,100,15.0,Peripherals Inc.
+13,Webcam,Electrónica,35,50.0,TechCorp
+14,Altavoces,Electrónica,22,75.0,SoundWave
+15,Microfono,Electrónica,18,60.0,SoundWave
+16,Proyector,Electrónica,5,500.0,VisualTech
+17,Consola de Juegos,Electrónica,12,400.0,GameZone
+18,Control de Juegos,Electrónica,45,60.0,GameZone
+19,Televisor,Electrónica,10,1000.0,VisualTech
+20,Refrigerador,Electrodomésticos,4,1200.0,HomeAppliances
+21,Microondas,Electrodomésticos,10,300.0,HomeAppliances
+22,Lavadora,Electrodomésticos,3,800.0,HomeAppliances
+23,Secadora,Electrodomésticos,3,700.0,HomeAppliances
+24,Aspiradora,Electrodomésticos,15,150.0,HomeAppliances
+25,Plancha,Electrodomésticos,25,50.0,HomeAppliances
+26,Cafetera,Electrodomésticos,20,100.0,HomeAppliances
+27,Tostadora,Electrodomésticos,18,40.0,HomeAppliances
+28,Licuadora,Electrodomésticos,12,80.0,HomeAppliances
+29,Freidora,Electrodomésticos,10,120.0,HomeAppliances
+30,Horno,Electrodomésticos,5,600.0,HomeAppliances
+31,Colchón,Muebles,8,500.0,FurniStore
+32,Armario,Muebles,6,700.0,FurniStore
+33,Estantería,Muebles,10,150.0,FurniStore
+34,Mesita de Noche,Muebles,12,100.0,FurniStore
+35,Sofá,Muebles,4,800.0,FurniStore
+36,Comedor,Muebles,3,1000.0,FurniStore
+37,Alfombra,Muebles,15,200.0,FurniStore
+38,Lámpara,Iluminación,20,60.0,LightHouse
+39,Linterna,Iluminación,30,20.0,LightHouse
+40,Velador,Iluminación,25,40.0,LightHouse
+41,Panel Solar,Iluminación,0,500.0,LightHouse
+42,Generador,Electrodomésticos,0,1500.0,HomeAppliances
+43,Drone,Electrónica,0,1200.0,TechCorp
+44,Smartwatch,Electrónica,0,300.0,MobileWorld
+45,VR Headset,Electrónica,0,600.0,GameZone
+46,Termostato Inteligente,Electrodomésticos,0,200.0,HomeAppliances
+47,Robot Aspirador,Electrodomésticos,0,400.0,HomeAppliances
+48,Altavoz Inteligente,Electrónica,0,150.0,SoundWave
+49,Interruptor Inteligente,Iluminación,0,50.0,LightHouse
+50,Cámara de Seguridad,Electrónica,0,250.0,TechCorp
+51,Enchufe Inteligente,Electrodomésticos,0,30.0,HomeAppliances
+52,Sensor de Movimiento,Electrónica,0,100.0,TechCorp
+53,Detector de Humo,Electrodomésticos,0,80.0,HomeAppliances
+54,Video Timbre,Electrónica,0,200.0,TechCorp
+55,Control Remoto Universal,Electrónica,0,40.0,Peripherals Inc.
+56,Monitor de Bebé,Electrónica,0,150.0,TechCorp
+57,Humidificador,Electrodomésticos,0,100.0,HomeAppliances
+58,Purificador de Aire,Electrodomésticos,0,300.0,HomeAppliances
+59,Calefactor,Electrodomésticos,0,200.0,HomeAppliances
+60,Deshumidificador,Electrodomésticos,10,250.0,HomeAppliances
