@@ -1,0 +1,52 @@
+Fecha,Producto,Categoría,Cantidad,Precio Unitario,Total
+2024-01-10,Laptop,Electrónica,2,1500,3000
+2024-01-11,Mouse,Electrónica,5,20,100
+2024-01-12,Silla,Muebles,1,200,200
+2024-01-13,Escritorio,Muebles,1,400,400
+2024-01-14,Teclado,Electrónica,3,50,150
+2024-01-15,Monitor,Electrónica,2,300,600
+2024-01-16,Impresora,Electrónica,1,200,200
+2024-01-17,Teléfono,Electrónica,4,100,400
+2024-01-18,Tablet,Electrónica,2,250,500
+2024-01-19,Altavoces,Electrónica,3,75,225
+2024-01-20,Webcam,Electrónica,5,40,200
+2024-01-21,Router,Electrónica,2,80,160
+2024-01-22,Microondas,Electrodomésticos,1,150,150
+2024-01-23,Refrigerador,Electrodomésticos,1,800,800
+2024-01-24,Lavadora,Electrodomésticos,1,600,600
+2024-01-25,Secadora,Electrodomésticos,1,500,500
+2024-01-26,Aspiradora,Electrodomésticos,2,100,200
+2024-01-27,Plancha,Electrodomésticos,3,50,150
+2024-01-28,Televisor,Electrónica,1,1000,1000
+2024-01-29,Consola de Juegos,Electrónica,2,400,800
+2024-01-30,Cámara,Electrónica,1,700,700
+2024-01-31,Smartwatch,Electrónica,3,200,600
+2024-02-01,Drone,Electrónica,1,1200,1200
+2024-02-02,Proyector,Electrónica,1,500,500
+2024-02-03,Disco Duro,Electrónica,4,100,400
+2024-02-04,Memoria USB,Electrónica,10,20,200
+2024-02-05,SSD,Electrónica,2,150,300
+2024-02-06,Fuente de Poder,Electrónica,1,100,100
+2024-02-07,Placa Madre,Electrónica,1,250,250
+2024-02-08,Procesador,Electrónica,1,300,300
+2024-02-09,RAM,Electrónica,2,80,160
+2024-02-10,Enrutador,Electrónica,1,150,150
+2024-02-11,Switch,Electrónica,2,100,200
+2024-02-12,Modem,Electrónica,1,120,120
+2024-02-13,Servidor,Electrónica,1,2000,2000
+2024-02-14,Firewall,Electrónica,1,500,500
+2024-02-15,UPS,Electrónica,1,300,300
+2024-02-16,Monitor Curvo,Electrónica,1,400,400
+2024-02-17,Teclado Mecánico,Electrónica,2,100,200
+2024-02-18,Mouse Inalámbrico,Electrónica,3,50,150
+2024-02-19,Altavoz Bluetooth,Electrónica,2,75,150
+2024-02-20,Smart TV,Electrónica,1,1500,1500
+2024-02-21,Consola Portátil,Electrónica,1,300,300
+2024-02-22,Proyector 4K,Electrónica,1,800,800
+2024-02-23,Disco Duro Externo,Electrónica,2,150,300
+2024-02-24,Memoria RAM,Electrónica,4,80,320
+2024-02-25,SSD Externo,Electrónica,1,200,200
+2024-02-26,Fuente de Poder Modular,Electrónica,1,150,150
+2024-02-27,Placa Base,Electrónica,1,250,250
+2024-02-28,Procesador de Alta Gama,Electrónica,1,500,500
+2024-02-29,RAM DDR4,Electrónica,2,100,200
