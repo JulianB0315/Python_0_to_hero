@@ -3,6 +3,7 @@ import datetime as dt
 import matplotlib.pyplot as plt
 import bot_biblioteca as bot
 
+# Cargar datos
 df_libros = pd.read_csv('Ejercicios/Practicas personales/Py-class 03/libros.csv')
 df_usuarios = pd.read_csv('Ejercicios/Practicas personales/Py-class 03/usuarios.csv')
 
@@ -27,11 +28,12 @@ def registrarse():
     if usuario in df_usuarios['usuario'].values:
         print("Usuario ya registrado")
         inicio()
-    contrasena = input("Ingrese su contraseña: ")
-    df_usuarios.loc[len(df_usuarios)] = [usuario, contrasena]
-    df_usuarios.to_csv('Ejercicios/Pandas/Ejercicio 02/usuarios.csv', index=False)
-    print("Usuario registrado")
-    menu()
+    else:
+        contrasena = input("Ingrese su contraseña: ")
+        df_usuarios.loc[len(df_usuarios)] = [usuario, contrasena]
+        df_usuarios.to_csv('Ejercicios/Practicas personales/Py-class 03/usuarios.csv', index=False)
+        print("Usuario registrado")
+        menu()
 
 def inicio():
     print("Bienvenido a la biblioteca pública")
