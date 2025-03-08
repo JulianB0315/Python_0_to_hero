@@ -3,8 +3,13 @@ import pandas as pd
 from datetime import datetime
 
 # Cargar los datos directamente
-df_cuentas = pd.read_excel('Ejercicios/Practicas personales/Py-class 04/Cuentas.xlsx',dtype={'DNI': str, 'Contraseña': str, 'Saldo': float})
-df_transacciones = pd.read_excel('Ejercicios/Practicas personales/Py-class 04/Transacciones.xlsx',dtype={'DNI': str, 'Monto': float})
+try:
+    df_cuentas = pd.read_excel('Ejercicios/Practicas personales/Py-class 04/Cuentas.xlsx', dtype={'DNI': str, 'Contraseña': str, 'Saldo': float})
+    df_transacciones = pd.read_excel('Ejercicios/Practicas personales/Py-class 04/Transacciones.xlsx', dtype={'DNI': str, 'Monto': float})
+except Exception as e:
+    print(f"Error al cargar los archivos de Excel: {e}")
+    df_cuentas = pd.DataFrame(columns=['DNI', 'Apellido Paterno', 'Apellido Materno', 'Nombre', 'Edad', 'Contraseña', 'Saldo'])
+    df_transacciones = pd.DataFrame(columns=['DNI', 'Tipo', 'Monto', 'Fecha'])
 # print(df_cuentas)
 # print(df_transacciones)
 
