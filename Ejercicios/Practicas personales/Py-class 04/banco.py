@@ -3,15 +3,8 @@ import pandas as pd
 from datetime import datetime
 
 # Cargar los datos directamente
-try:
-    df_cuentas = pd.read_excel('Ejercicios/Practicas personales/Py-class 04/Cuentas.xlsx', dtype={'DNI': str, 'Contraseña': str, 'Saldo': float})
-    df_transacciones = pd.read_excel('Ejercicios/Practicas personales/Py-class 04/Transacciones.xlsx', dtype={'DNI': str, 'Monto': float})
-except Exception as e:
-    print(f"Error al cargar los archivos de Excel: {e}")
-    df_cuentas = pd.DataFrame(columns=['DNI', 'Apellido Paterno', 'Apellido Materno', 'Nombre', 'Edad', 'Contraseña', 'Saldo'])
-    df_transacciones = pd.DataFrame(columns=['DNI', 'Tipo', 'Monto', 'Fecha'])
-# print(df_cuentas)
-# print(df_transacciones)
+df_cuentas = pd.read_excel('Ejercicios/Practicas personales/Py-class 04/Cuentas.xlsx', dtype={'DNI': str, 'Contraseña': str, 'Saldo': float})
+df_transacciones = pd.read_excel('Ejercicios/Practicas personales/Py-class 04/Transacciones.xlsx', dtype={'DNI': str, 'Monto': float})
 
 class Cuenta:
     def __init__(self, dni, apelPart, apelMart, nom, edad, contra, saldo=0.0):
@@ -44,7 +37,7 @@ def crearCuenta():
         contra = input("Ingresar nuevamente la contraseña (8 dígitos): \n")
 
     cuenta = Cuenta(dni, apelPart, apelMart, nom, edad, contra)
-    df_nueva_cuenta= pd.DataFrame({'DNI': [dni], 'Apellido Paterno': [apelPart], 'Apellido Materno': [apelMart], 'Nombre': [nom], 'Edad': [edad], 'Contraseña': [contra], 'Saldo': [cuenta.saldo]}) 
+    df_nueva_cuenta = pd.DataFrame({'DNI': [dni], 'Apellido Paterno': [apelPart], 'Apellido Materno': [apelMart], 'Nombre': [nom], 'Edad': [edad], 'Contraseña': [contra], 'Saldo': [cuenta.saldo]}) 
     df_cuentas = pd.concat([df_cuentas, df_nueva_cuenta], ignore_index=True)
     df_cuentas.to_excel('Ejercicios/Practicas personales/Py-class 04/Cuentas.xlsx', sheet_name='Cuentas', index=False)
     print("---------------------------------------")
@@ -67,21 +60,19 @@ def retirarDinero():
             if cantidad > saldo_actual:
                 print("Saldo insuficiente.")
                 return
-            cuenta = Cuenta()
-            cuenta.dni = dni
-            cuenta.saldo = saldo_actual - cantidad
+            saldo_actual -= cantidad
             fecha = datetime.now().strftime("%Y-%m-%d %H:%M")
             print("**********************")
             print("**Retiro realizado**")
             print(f"N° DNI: {dni}")
             print(f"Monto retiro: s/.{cantidad}")
-            print(f"Saldo actual: s/.{cuenta.saldo}")
+            print(f"Saldo actual: s/.{saldo_actual}")
             print(f"Fecha de retiro: {fecha}")
             print("**********************\n")
             # Guardar transacción
             df_transacciones = pd.concat([df_transacciones, pd.DataFrame({'DNI': [dni], 'Tipo': ['Retiro'], 'Monto': [cantidad], 'Fecha': [fecha]})], ignore_index=True)
             df_transacciones.to_excel('Ejercicios/Practicas personales/Py-class 04/Transacciones.xlsx', sheet_name='Transacciones', index=False)
-            df_cuentas.loc[df_cuentas['DNI'] == dni, 'Saldo'] = cuenta.saldo
+            df_cuentas.loc[df_cuentas['DNI'] == dni, 'Saldo'] = saldo_actual
             df_cuentas.to_excel('Ejercicios/Practicas personales/Py-class 04/Cuentas.xlsx', sheet_name='Cuentas', index=False)
         else:
             print("Contraseña incorrecta.")
@@ -99,25 +90,20 @@ def ingresarDinero():
     if not cuenta_encontrada.empty:
         contra = input("Ingresar la contraseña: \n")
         if contra == cuenta_encontrada.iloc[0]['Contraseña']:
-            cantidad = float(input("¿Cuánto dinero desea retirar?: \n"))
+            cantidad = float(input("¿Cuánto dinero desea ingresar?: \n"))
             saldo_actual = cuenta_encontrada.iloc[0]['Saldo']
-            if cantidad > saldo_actual:
-                print("Saldo insuficiente.")
-                return
-            cuenta = Cuenta()
-            cuenta.dni = dni
-            cuenta.saldo = saldo_actual + cantidad
+            saldo_actual += cantidad
             fecha = datetime.now().strftime("%Y-%m-%d %H:%M")
             print("**********************")
-            print("**Retiro realizado**")
+            print("**Depósito realizado**")
             print(f"N° DNI: {dni}")
-            print(f"Monto retiro: s/.{cantidad}")
-            print(f"Saldo actual: s/.{cuenta.saldo}")
-            print(f"Fecha de retiro: {fecha}")
+            print(f"Monto depósito: s/.{cantidad}")
+            print(f"Saldo actual: s/.{saldo_actual}")
+            print(f"Fecha de depósito: {fecha}")
             print("**********************\n")
             df_transacciones = pd.concat([df_transacciones, pd.DataFrame({'DNI': [dni], 'Tipo': ['Deposito'], 'Monto': [cantidad], 'Fecha': [fecha]})], ignore_index=True)
             df_transacciones.to_excel('Ejercicios/Practicas personales/Py-class 04/Transacciones.xlsx', sheet_name='Transacciones', index=False)
-            df_cuentas.loc[df_cuentas['DNI'] == dni, 'Saldo'] = cuenta.saldo
+            df_cuentas.loc[df_cuentas['DNI'] == dni, 'Saldo'] = saldo_actual
             df_cuentas.to_excel('Ejercicios/Practicas personales/Py-class 04/Cuentas.xlsx', sheet_name='Cuentas', index=False)
         else:
             print("Contraseña incorrecta.")
@@ -166,7 +152,7 @@ def mostrar_grafica_transacciones():
     colors = ['#ff9999','#66b3ff']
 
     plt.figure(figsize=(8, 8))
-    plt.pie(sizes, labels=labels, colors=colors, autopct='%1.1f%%',shadow=True, startangle=140)
+    plt.pie(sizes, labels=labels, colors=colors, autopct='%1.1f%%', shadow=True, startangle=140)
     plt.axis('equal')
     plt.title(f'Distribución de Transacciones')
     plt.show()
@@ -220,6 +206,7 @@ def estadicticas():
     plt.ylabel('Saldo')
     plt.grid(True)
     plt.show()
+
 def menu():
     while True:
         print("**** Bienvenido al cajero automático ****")
@@ -242,7 +229,7 @@ def menu():
         print("*****************************************\n")
         
         opc = input("Ingrese número de acción que desea hacer: \n")
-        if opc not in ["1", "2", "3", "4", "5","6","7"]:
+        if opc not in ["1", "2", "3", "4", "5", "6", "7"]:
             print("Opción no válida. Intente de nuevo.")
             continue
 
