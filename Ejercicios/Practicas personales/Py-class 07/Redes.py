@@ -5,6 +5,7 @@ import tensorflow as tf
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import mean_squared_error, mean_absolute_percentage_error
 import yfinance as yf  # Para obtener datos históricos
+
 Sequential = tf.keras.models.Sequential
 LSTM = tf.keras.layers.LSTM
 Dense = tf.keras.layers.Dense
