@@ -6,6 +6,7 @@ import tensorflow as tf
 from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import MinMaxScaler
 from statsmodels.tsa.arima.model import ARIMA
+
 Sequential = tf.keras.models.Sequential
 LSTM = tf.keras.layers.LSTM
 Dense = tf.keras.layers.Dense
