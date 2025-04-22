@@ -1,19 +1,36 @@
 import cv2
 import datetime
 
-# Cargar el modelo de detección de caras (Haar cascades)
-face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
-
-# Inicializar la cámara con manejo de errores
-video_capture = cv2.VideoCapture(0)
-if not video_capture.isOpened():
-    print("Error: No se pudo acceder a la cámara.")
-    exit()
-
-# Parámetros para calcular la distancia
+# Parámetros globales
 KNOWN_DISTANCE = 50.0  # Distancia conocida en cm
 KNOWN_WIDTH = 14.0  # Ancho promedio de una cara humana en cm
 FOCAL_LENGTH = 600  # Longitud focal calibrada (ajustar según la cámara)
+
+def initialize_camera():
+    """Inicializar la cámara con manejo de errores."""
+    video_capture = cv2.VideoCapture(0)
+    if not video_capture.isOpened():
+        print("Error: No se pudo acceder a la cámara.")
+        exit()
+    return video_capture
+
+def detect_faces(frame, face_cascade):
+    """Detectar caras en un cuadro dado."""
+    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+    faces = face_cascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=5, minSize=(30, 30))
+    return faces
+
+def calculate_distance(face_width):
+    """Calcular la distancia en cm basada en el ancho de la cara detectada."""
+    return (KNOWN_WIDTH * FOCAL_LENGTH) / face_width
+
+def draw_face_grid(frame, x, y, w, h):
+    """Dibujar una cuadrícula de puntos dentro del área del rostro."""
+    step_x = w // 10
+    step_y = h // 10
+    for i in range(0, w, step_x):
+        for j in range(0, h, step_y):
+            cv2.circle(frame, (x + i, y + j), 2, (0, 255, 255), -1)  # Puntos amarillos
 
 def save_biometric_data(image, biometric_data):
     """Guardar la imagen y los datos biométricos en un archivo."""
@@ -33,47 +50,55 @@ def save_biometric_data(image, biometric_data):
     print(f"Foto guardada como {image_filename}")
     print(f"Datos biométricos guardados en {data_filename}")
 
-while True:
-    # Capturar un cuadro de la cámara
-    ret, frame = video_capture.read()
-    if not ret:
-        print("Advertencia: No se pudo leer el cuadro de la cámara.")
-        continue  # Intentar leer el siguiente cuadro
-
-    # Convertir a escala de grises para la detección de caras
-    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-
-    # Detectar caras en el cuadro
-    faces = face_cascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=5, minSize=(30, 30))
+def process_frame(frame, face_cascade):
+    """Procesar un cuadro de video para detección de caras y cálculo de distancias."""
+    faces = detect_faces(frame, face_cascade)
+    biometric_data = []
 
     for (x, y, w, h) in faces:
-        # Calcular la distancia en cm para cada cara detectada
-        distance = (KNOWN_WIDTH * FOCAL_LENGTH) / w
+        distance = calculate_distance(w)
         distance_text = f"Distancia: {distance:.2f} cm"
 
         # Dibujar el cuadro delimitador y las etiquetas para cada cara
-        cv2.rectangle(frame, (x, y), (x+w, y+h), (255, 0, 0), 2)
-        cv2.putText(frame, distance_text, (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 1)  # Texto en verde
+        cv2.rectangle(frame, (x, y), (x + w, y + h), (255, 0, 0), 2)
+        cv2.putText(frame, distance_text, (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 1)
 
         # Dibujar puntos en una cuadrícula dentro del área del rostro
-        step_x = w // 10
-        step_y = h // 10
-        for i in range(0, w, step_x):
-            for j in range(0, h, step_y):
-                cv2.circle(frame, (x + i, y + j), 2, (0, 255, 255), -1)  # Puntos amarillos
+        draw_face_grid(frame, x, y, w, h)
 
-    # Mostrar el cuadro procesado con mapeo y distancias
-    cv2.imshow("Mapeo de Rostro y Distancias", frame)
+        # Agregar datos biométricos
+        biometric_data.append({"distance": distance, "width": w})
 
-    # Tomar una foto y guardar datos biométricos con la tecla 's'
-    if cv2.waitKey(1) & 0xFF == ord('s'):
-        biometric_data = [{"distance": (KNOWN_WIDTH * FOCAL_LENGTH) / w, "width": w} for (x, y, w, h) in faces]
-        save_biometric_data(frame, biometric_data)
+    return frame, biometric_data
 
-    # Salir con la tecla 'q'
-    if cv2.waitKey(1) & 0xFF == ord('q'):
-        break
+def main():
+    """Función principal para ejecutar el programa."""
+    face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+    video_capture = initialize_camera()
 
-# Liberar la cámara y cerrar ventanas
-video_capture.release()
-cv2.destroyAllWindows()
+    while True:
+        ret, frame = video_capture.read()
+        if not ret:
+            print("Advertencia: No se pudo leer el cuadro de la cámara.")
+            continue
+
+        # Procesar el cuadro
+        frame, biometric_data = process_frame(frame, face_cascade)
+
+        # Mostrar el cuadro procesado
+        cv2.imshow("Mapeo de Rostro y Distancias", frame)
+
+        # Tomar una foto y guardar datos biométricos con la tecla 's'
+        if cv2.waitKey(1) & 0xFF == ord('s'):
+            save_biometric_data(frame, biometric_data)
+
+        # Salir con la tecla 'q'
+        if cv2.waitKey(1) & 0xFF == ord('q'):
+            break
+
+    # Liberar la cámara y cerrar ventanas
+    video_capture.release()
+    cv2.destroyAllWindows()
+
+if __name__ == "__main__":
+    main()
