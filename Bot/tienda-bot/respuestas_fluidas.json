@@ -1,0 +1,263 @@
+{
+  "respuestas": {
+    "saludo": {
+      "palabras_clave": ["hola", "hey", "buenos", "buenas", "qué tal", "ey", "oye", "ola"],
+      "respuestas": [
+        "¡Hola! 👋 Bienvenido a TechStore. ¿En qué puedo ayudarte hoy?",
+        "¡Hey! 😊 Estoy aquí para ayudarte a encontrar la tecnología perfecta. ¿Qué necesitas?",
+        "¡Qué tal! 🚀 Bienvenido a nuestra tienda tech. ¿Buscas algo en particular?",
+        "¡Hola, amigo! 💻 Me alegra verte. ¿Qué puedo hacer por ti?",
+        "¡Hey, qué onda! 👾 Estoy aquí para recomendarte los mejores productos. ¿Comenzamos?"
+      ]
+    },
+    "despedida": {
+      "palabras_clave": ["adiós", "adios", "hasta luego", "chao", "ciao", "bye", "nos vemos", "me voy", "salgo"],
+      "respuestas": [
+        "¡Hasta luego! Gracias por visitar TechStore. 👋",
+        "¡Que disfrutes! Vuelve pronto 😊",
+        "¡Adiós! Esperamos verte de nuevo. 🎉",
+        "¡Nos vemos! Gracias por tu visita 🚀",
+        "¡Chao! Espero haberte sido útil. Vuelve cuando quieras 💙"
+      ]
+    },
+    "fecha_hora": {
+      "palabras_clave": ["qué hora", "que hora", "qué día", "que día", "hora", "día", "fecha", "hoy"],
+      "respuestas": [
+        "Son las {hora} ⏰ Hoy es {día} de {mes}",
+        "La hora actual es {hora} 🕐 Estamos en {día_nombre}",
+        "Ahora son las {hora} ⌚ Es {día_nombre}, {fecha_completa}",
+        "Te muestro la hora: {hora} ⏱️ Estamos en {día_nombre}",
+        "Es {hora} en punto ⏰ Hoy es {día_nombre}"
+      ]
+    },
+    "sobre_bot": {
+      "palabras_clave": ["cómo estás", "como estás", "cómo vas", "como vas", "qué tal", "como te va", "estás bien"],
+      "respuestas": [
+        "¡Estoy genial, gracias por preguntar! 😊 Listo para ayudarte a encontrar la tecnología perfecta.",
+        "¡De maravilla! 🚀 Mi misión es hacerte sentir bienvenido y ayudarte a comprar. ¿En qué te ayudo?",
+        "¡Excelente! 💻 Estoy aquí, enfocado en darte el mejor servicio. ¿Qué necesitas?",
+        "¡Muy bien, gracias! 😄 Energizado y listo para asistirte. ¿Hay algo que pueda hacer?",
+        "¡Perfecto! 🎯 Estoy aquí para ti y para que disfrutes comprando. ¿Qué te trae?"
+      ]
+    },
+    "nombre_bot": {
+      "palabras_clave": ["quién eres", "tu nombre", "cómo te llamas", "como te llamas", "qué eres", "que eres"],
+      "respuestas": [
+        "¡Soy TechBot! 🤖 Tu asistente inteligente en TechStore. Estoy aquí para ayudarte a encontrar productos increíbles.",
+        "Me llamo TechBot 💻 Soy tu compañero virtual para explorar el mejor tech. ¿Qué buscas?",
+        "Soy un asistente IA llamado TechBot 🚀 Especializado en tecnología y recomendaciones. ¡Encantado de conocerte!",
+        "TechBot, para servirte 😊 Tu vendedor virtual de tech. Aquí para resolver todas tus dudas.",
+        "¡Yo soy TechBot! 🎯 Un asistente amigable dedicado a hacerte comprar fácil y feliz."
+      ]
+    },
+    "gratitud": {
+      "palabras_clave": ["gracias", "thanks", "muchas gracias", "ta", "tq", "ty", "merci", "agradecido"],
+      "respuestas": [
+        "¡De nada! 😊 Siempre es un placer ayudarte.",
+        "¡Para eso estamos! 🙌 Feliz de poder asistirte.",
+        "¡Claro! 💙 Es mi función hacer tu compra más fácil.",
+        "¡No hay problema! 🎉 Seguimos aquí si necesitas algo más.",
+        "¡Encantado de ayudar! 🚀 Vuelve cuando necesites."
+      ]
+    },
+    "bromas": {
+      "palabras_clave": ["jaja", "jajaja", "haha", "😂", "😄", "😆", "lol", "xd", "jeje"],
+      "respuestas": [
+        "¡Jejeje! 😄 Me encanta tu sentido del humor. ¿Hay algo que pueda hacer por ti?",
+        "¡Haha! 😂 Veo que eres de buen humor. ¡Así me gusta! ¿Buscos algo?",
+        "¡Jajaja! 🤣 Me parte. Bueno, ¿qué producto te interesa?",
+        "😄 Ese es el espíritu. ¿Vamos a buscar algo para ti?",
+        "¡Ja! 😆 Tu risa es contagiosa. ¿En qué te ayudo?"
+      ]
+    },
+    "busqueda": {
+      "palabras_clave": ["busco", "quiero", "necesito", "dame", "buscar", "mostrar", "qué tienes", "algo de"],
+      "respuestas": [
+        "Perfecto, déjame buscar eso para ti 🔍",
+        "Claro, te mostraré lo que tenemos 💻",
+        "Excelente elección. Déjame traerte los mejores 🎯",
+        "Vamos a encontrarlo juntos 🚀",
+        "Perfecto, tenemos opciones increíbles para ti ✨"
+      ]
+    },
+    "precio": {
+      "palabras_clave": ["precio", "cuesta", "cuánto", "cuanto", "caro", "barato", "valor", "cost"],
+      "respuestas": [
+        "Te muestro el precio 💰",
+        "Claro, aquí está el valor 💵",
+        "Déjame checarte esos precios 📊",
+        "Voy a informarte de los costos 💳",
+        "Aquí te muestro lo que vale 🏷️"
+      ]
+    },
+    "carrito": {
+      "palabras_clave": ["carrito", "agregar", "agrégame", "quiero esto", "cómpra", "compra", "añadir", "agrega"],
+      "respuestas": [
+        "¡Perfecto! Agregando a tu carrito 🛒",
+        "¡Excelente elección! Agregado ✅",
+        "¡Lo tengo! Agregado a tu carrito 🎁",
+        "¡Claro! Agregando ese producto 💫",
+        "¡Listo! Ya está en tu carrito 🛍️"
+      ]
+    },
+    "ver_carrito": {
+      "palabras_clave": ["ver carrito", "qué tengo", "que tengo", "mi carrito", "mostrar carrito", "carrito"],
+      "respuestas": [
+        "Aquí está tu carrito actual 🛒",
+        "Te muestro lo que tienes guardado 📋",
+        "Estos son tus productos 💼",
+        "Mira lo que has seleccionado ✨",
+        "Tu carrito de compras se ve así 🎁"
+      ]
+    },
+    "limpiar_carrito": {
+      "palabras_clave": ["vaciar", "limpiar", "borrar", "quitar", "eliminar", "borrar todo", "vacía"],
+      "respuestas": [
+        "¡Vaciado! Tu carrito está limpio ahora 🧹",
+        "¡Listo! He borrado todo 🗑️",
+        "¡Vacío! Empezamos de cero 🆕",
+        "¡Eliminado! Tu carrito está vacío ✨",
+        "¡Boom! Carrito limpio 🎯"
+      ]
+    },
+    "ayuda": {
+      "palabras_clave": ["ayuda", "help", "qué puedo", "que puedo", "no entiendo", "cómo", "como", "explica"],
+      "respuestas": [
+        "¡Claro! Estoy aquí para ayudarte 🤝",
+        "Cuéntame qué necesitas y te ayudo 💬",
+        "Adelante, pregunta lo que sea 🎯",
+        "Estoy aquí para resolver tus dudas 💡",
+        "Dime qué necesitas y hacemos magia 🪄"
+      ]
+    },
+    "conversacion_general": {
+      "palabras_clave": ["hablame", "háblame", "cuéntame", "dame info", "información", "sabe", "sabes", "piensas"],
+      "respuestas": [
+        "Me encanta conversar 💬 ¿Sobre qué quieres que te cuente?",
+        "¡Claro! Estoy para charlar 😊 ¿Qué te interesa?",
+        "¡Buena pregunta! 🤔 Déjame ayudarte con eso.",
+        "Me encanta este tema 🎙️ ¿Qué específicamente?",
+        "¡Interesante! 🌟 ¿Cuál es tu pregunta?"
+      ]
+    },
+    "no_entiendo": {
+      "palabras_clave": [],
+      "respuestas": [
+        "Hmm, no estoy muy seguro de eso 🤔 Pero te recomiendo algunos productos que podrían interesarte.",
+        "Interesante... 👀 Aunque no entendí bien, déjame sugerirte algo que crees que te gustará.",
+        "No capté todo eso 😅 Pero basándome en lo que dijiste, mira esto que te puede interesar.",
+        "Esa es una buena observación 🧠 Aquí te tengo algunos productos que van perfecto.",
+        "Jeje, ¡eres profundo! 🎯 De todas formas, te recomiendo ver estos productos."
+      ]
+    }
+  },
+  "respuestas_contextuales": {
+    "gamer": {
+      "palabras_clave": ["gaming", "gamer", "juegos", "jugar", "console", "fps", "rank"],
+      "respuestas": [
+        "¡Veo que eres gamer! 🎮 Te tengo opciones increíbles.",
+        "¡Un gamers entre nosotros! 👾 Espera que te muestre lo mejor.",
+        "¡Ahá! Gaming profesional 🏆 Conozco justo lo que necesitas.",
+        "¡Épico! 🎯 Acá hay periféricos para jugadores serios.",
+        "¡Eres de los nuestros! 💪 Mira estos productos gamer."
+      ]
+    },
+    "profesional": {
+      "palabras_clave": ["trabajo", "oficina", "profesional", "negocios", "empresa", "laboral", "de casa"],
+      "respuestas": [
+        "¡Un profesional! 💼 Te tengo lo que necesitas para ser más productivo.",
+        "¡Trabajo desde casa? 🏠 Perfecto, conozco lo ideal para ti.",
+        "¡Profesionalismo! 📊 Aquí está lo que todo trabajador necesita.",
+        "¡Un empresario/a! 🎯 Déjame mostrarte las herramientas perfectas.",
+        "¡El trabajo es lo primero! ⚙️ Mira estas opciones profesionales."
+      ]
+    },
+    "viajero": {
+      "palabras_clave": ["viaje", "viaja", "portátil", "compacto", "ligero", "movilidad", "nómada"],
+      "respuestas": [
+        "¡Un viajero! ✈️ Te tengo dispositivos compactos y potentes.",
+        "¡Vida nómada! 🌍 Aquí están tus mejores compañeros de viaje.",
+        "¡Siempre en movimiento! 🚀 Mira estos portátiles de lujo.",
+        "¡Mundo explorer! 🗺️ Necesitas esto para viajar sin preocupaciones.",
+        "¡La carretera te llama! 🛣️ Estos productos son perfectos para ti."
+      ]
+    },
+    "fotogrago": {
+      "palabras_clave": ["fotografía", "foto", "cámara", "editar", "imagen", "video", "contenido"],
+      "respuestas": [
+        "¡Un/a fotógrafo/a! 📸 Tengo lo mejor para capturar momentos.",
+        "¡Creador de contenido! 🎬 Mira estas opciones increíbles.",
+        "¡Arte visual! 🖼️ Aquí está lo que todo creador necesita.",
+        "¡GoPro vibes! 🎥 Estas opciones son perfectas para ti.",
+        "¡La creatividad es lo tuyo! ✨ Déjame mostrarte mis favoritas."
+      ]
+    },
+    "audiofilo": {
+      "palabras_clave": ["música", "audio", "sonido", "auricular", "speaker", "sonidazo"],
+      "respuestas": [
+        "¡Un audiófilo! 🎵 Tengo auriculares que te volarán la cabeza.",
+        "¡Amante del sonido! 🔊 Aquí están los mejores del mercado.",
+        "¡La música es vida! 🎶 Mira estos sonidazos.",
+        "¡Calidad de audio? 🎧 Conozco exactamente lo que necesitas.",
+        "¡Bass lover! 🎼 Estas opciones son para audiófilos como tú."
+      ]
+    }
+  },
+  "interjecciones": {
+    "palabras_clave": ["wow", "guau", "increíble", "genial", "excelente", "perfecto", "mal", "malo", "terrible"],
+    "respuestas": {
+      "positivo": [
+        "¡Exacto! 🎉",
+        "¡Verdad que sí! 👏",
+        "¡Te lo dije! 💯",
+        "¡Así es! ✨"
+      ],
+      "negativo": [
+        "Entiendo tu preocupación 😔",
+        "Sí, a veces es difícil 😓",
+        "Tienes razón 🤔",
+        "Puedo entender eso 💙"
+      ]
+    }
+  },
+  "transiciones": {
+    "continuacion": [
+      "Además...",
+      "Ahora bien...",
+      "Por otro lado...",
+      "También te digo...",
+      "Otra cosa importante..."
+    ],
+    "cambio_tema": [
+      "Hablando de otra cosa...",
+      "A propósito...",
+      "Cambiando de tema...",
+      "Bueno, volviendo a...",
+      "Dicho esto..."
+    ],
+    "confirmacion": [
+      "¿Está bien?",
+      "¿Te parece?",
+      "¿Qué dices?",
+      "¿Te gusta la idea?",
+      "¿Vamos con esto?"
+    ]
+  },
+  "preguntas_frecuentes": {
+    "¿tienes esto?": "Sí, tengo ese producto en stock 📦",
+    "¿es caro?": "Tiene un precio muy competitivo 💰",
+    "¿es bueno?": "¡Es de lo mejor del mercado! ⭐",
+    "¿recomendaciones?": "Claro, déjame sugerirte lo mejor 🎯",
+    "¿hay descuento?": "Siempre hay promociones especiales 🎁",
+    "¿garantía?": "Todos nuestros productos tienen garantía oficial ✅",
+    "¿envío?": "Envíos rápidos a todo el país 🚚",
+    "¿devolucion?": "Política de devolución de 30 días 🔄"
+  },
+  "emojis_contexto": {
+    "tecnologia": "💻🖥️⌨️🖱️📱💾🔌🔋",
+    "tienda": "🛒🏪🏬💳💰",
+    "recomendacion": "👍⭐✨🎯🏆",
+    "ayuda": "🤝💬📞❓",
+    "accion": "✅✔️👌🎉"
+  }
+}
