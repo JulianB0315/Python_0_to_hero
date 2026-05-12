@@ -1,0 +1,266 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Acer Nitro 957",
+      "categoria_principal": "laptops",
+      "categorias_secundarias": ["computadoras", "gaming", "trabajo", "portátil", "performance"],
+      "precio": 1731.87,
+      "rango_precio": "alto",
+      "descripcion": "Laptop gaming potente para juegos y trabajo profesional",
+      "especificaciones": "Intel i7, 16GB RAM, SSD 512GB, Pantalla 15.6 FHD",
+      
+      "palabras_clave": [
+        "laptop", "computadora", "portátil", "gaming", "trabajo",
+        "intel", "16gb", "ssd", "pantalla", "potencia",
+        "i7", "15.6", "fhd"
+      ],
+      
+      "etiquetas_busqueda": [
+        "no sé qué", "algo potente", "para trabajar", "para jugar",
+        "portátil", "ligero", "rápido", "bueno y barato",
+        "computadora gaming", "laptop trabajo", "algo para programar"
+      ],
+      
+      "casos_uso": [
+        "gaming",
+        "edición de video",
+        "programación",
+        "trabajo remoto",
+        "multitarea",
+        "renderizado 3D",
+        "desarrollo web"
+      ],
+      
+      "publico_objetivo": [
+        "gamers",
+        "profesionales",
+        "estudiantes",
+        "creadores de contenido",
+        "trabajadores remotos",
+        "desarrolladores",
+        "diseñadores"
+      ],
+      
+      "caracteristicas_destacadas": {
+        "potencia": 9,
+        "portabilidad": 7,
+        "pantalla": 8,
+        "audio": 6,
+        "bateria": 7,
+        "precio_valor": 8,
+        "diseño": 7,
+        "teclado": 8
+      },
+      
+      "complementos_recomendados": [8, 3, 6],
+      "competidores": [7, 11],
+      
+      "ventajas": [
+        "Excelente rendimiento",
+        "Pantalla de calidad",
+        "Buena relación precio-rendimiento",
+        "Procesador potente Intel i7",
+        "16GB de RAM para multitarea",
+        "SSD rápido",
+        "Teclado cómodo para largas sesiones"
+      ],
+      
+      "desventajas": [
+        "Un poco pesada para viajes (2.5kg)",
+        "Precio elevado",
+        "Batería moderada (5-6 horas)",
+        "No tiene tarjeta gráfica dedicada"
+      ],
+      
+      "alternativas_presupuesto": {
+        "mas_barata": 10,
+        "mas_cara": 2
+      },
+      
+      "especificaciones_tecnicas": {
+        "procesador": "Intel Core i7",
+        "ram": "16GB DDR4",
+        "almacenamiento": "SSD 512GB NVMe",
+        "pantalla": "15.6 pulgadas FHD",
+        "resolucion": "1920x1080",
+        "peso": "2.5 kg",
+        "bateria": "52Wh"
+      }
+    },
+    
+    {
+      "id": 7,
+      "nombre": "Xiaomi Pad 316",
+      "categoria_principal": "tablets",
+      "categorias_secundarias": ["portátil", "educativo", "trabajo", "entretenimiento", "viaje"],
+      "precio": 2266.45,
+      "rango_precio": "alto",
+      "descripcion": "Tablet educativa de calidad con pantalla 11 pulgadas",
+      "especificaciones": "Tablet educativa, 64GB, funda incluida",
+      
+      "palabras_clave": [
+        "tablet", "ipad", "portátil", "pantalla", "educativo",
+        "64gb", "ligero", "compacto", "viaje", "estudiante"
+      ],
+      
+      "etiquetas_busqueda": [
+        "no sé qué", "algo ligero", "para viajar", "algo portátil",
+        "para estudiar", "tablet barata", "ipad alternativa",
+        "lectura", "multimedia", "películas"
+      ],
+      
+      "casos_uso": [
+        "lectura",
+        "educación",
+        "películas y series",
+        "trabajo remoto",
+        "dibujo digital",
+        "videollamadas",
+        "navegación web"
+      ],
+      
+      "publico_objetivo": [
+        "estudiantes",
+        "viajeros",
+        "lectores",
+        "profesionales remotos",
+        "padres",
+        "artistas digitales"
+      ],
+      
+      "caracteristicas_destacadas": {
+        "potencia": 7,
+        "portabilidad": 9,
+        "pantalla": 9,
+        "audio": 7,
+        "bateria": 8,
+        "precio_valor": 8,
+        "diseño": 9,
+        "durabilidad": 8
+      },
+      
+      "complementos_recomendados": [3, 6],
+      "competidores": [10],
+      
+      "ventajas": [
+        "Muy portátil y ligero",
+        "Pantalla de excelente calidad",
+        "Ideal para viajes",
+        "Batería duradera",
+        "Incluye funda",
+        "Procesador rápido",
+        "Excelente para estudiantes"
+      ],
+      
+      "desventajas": [
+        "No es tan potente para gaming serio",
+        "Sistema operativo Android (no iOS)",
+        "Precio medio-alto"
+      ],
+      
+      "alternativas_presupuesto": {
+        "mas_barata": null,
+        "mas_cara": 2
+      },
+      
+      "especificaciones_tecnicas": {
+        "pantalla": "11 pulgadas IPS",
+        "resolucion": "2560x1600",
+        "procesador": "Octa-core",
+        "ram": "6GB",
+        "almacenamiento": "64GB",
+        "bateria": "8520mAh",
+        "peso": "590g"
+      }
+    },
+    
+    {
+      "id": 9,
+      "nombre": "Realme GT 929",
+      "categoria_principal": "smartphones",
+      "categorias_secundarias": ["móvil", "gaming", "fotografía", "portátil", "potencia"],
+      "precio": 1969.6,
+      "rango_precio": "alto",
+      "descripcion": "Smartphone gaming con cámara profesional",
+      "especificaciones": "Snapdragon 8 Gen 2, 12GB RAM, 256GB, Cámara 108MP",
+      
+      "palabras_clave": [
+        "smartphone", "teléfono", "móvil", "android", "gaming",
+        "snapdragon", "12gb", "256gb", "cámara", "108mp",
+        "5g", "rápido", "potente"
+      ],
+      
+      "etiquetas_busqueda": [
+        "no sé qué", "algo para jugar", "móvil gaming",
+        "teléfono rápido", "buena cámara", "para fotos",
+        "5g", "móvil potente", "teléfono trabajo"
+      ],
+      
+      "casos_uso": [
+        "gaming móvil",
+        "fotografía",
+        "videografía",
+        "videollamadas profesionales",
+        "trabajo",
+        "redes sociales",
+        "streaming"
+      ],
+      
+      "publico_objetivo": [
+        "gamers móviles",
+        "fotógrafos",
+        "creadores de contenido",
+        "profesionales",
+        "estudiantes",
+        "influencers"
+      ],
+      
+      "caracteristicas_destacadas": {
+        "potencia": 10,
+        "portabilidad": 10,
+        "pantalla": 9,
+        "audio": 8,
+        "bateria": 8,
+        "precio_valor": 9,
+        "camara": 10,
+        "procesador": 10
+      },
+      
+      "complementos_recomendados": [6, 3],
+      "competidores": [2],
+      
+      "ventajas": [
+        "Procesador Snapdragon 8 Gen 2 top",
+        "Cámara de 108MP profesional",
+        "12GB de RAM para multitarea",
+        "Pantalla AMOLED 120Hz",
+        "Excelente para gaming",
+        "5G ultra-rápido",
+        "Carga rápida 100W"
+      ],
+      
+      "desventajas": [
+        "Precio elevado",
+        "Batería podría ser más grande",
+        "Se calienta en gaming intenso"
+      ],
+      
+      "alternativas_presupuesto": {
+        "mas_barata": 10,
+        "mas_cara": null
+      },
+      
+      "especificaciones_tecnicas": {
+        "procesador": "Snapdragon 8 Gen 2",
+        "ram": "12GB LPDDR5",
+        "almacenamiento": "256GB UFS 4.0",
+        "pantalla": "6.7 pulgadas AMOLED",
+        "resolucion": "2412x1080",
+        "camara_principal": "108MP",
+        "bateria": "4500mAh",
+        "carga": "100W"
+      }
+    }
+  ]
+}
