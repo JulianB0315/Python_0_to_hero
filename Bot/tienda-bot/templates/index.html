@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore Bot 🤖</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar con Info -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>🛍️ TechStore</h2>
+                <p class="subtitle">Tu asistente de tecnología</p>
+            </div>
+            
+            <div class="sidebar-content">
+                <div class="quick-tips">
+                    <h3>💡 Prueba decir:</h3>
+                    <ul>
+                        <li>"Busco un laptop"</li>
+                        <li>"¿Cuánto cuesta el iPhone?"</li>
+                        <li>"Agrégame auriculares"</li>
+                        <li>"Ver mi carrito"</li>
+                    </ul>
+                </div>
+                
+                <div class="carrito-sidebar">
+                    <h3>🛒 Tu Carrito</h3>
+                    <div id="carrito-mini" class="carrito-mini">
+                        <p class="carrito-vacio">Vacío</p>
+                    </div>
+                    <div id="carrito-total" class="carrito-total"></div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Chat Principal -->
+        <main class="chat-container">
+            <div class="chat-header">
+                <h1>🤖 TechStore Bot</h1>
+                <p>Estoy aquí para ayudarte a encontrar la mejor tecnología</p>
+            </div>
+            
+            <div id="chat-messages" class="chat-messages">
+                <div class="message bot-message welcome">
+                    <div class="message-content">
+                        <p>¡Hola! 👋 Bienvenido a TechStore. Soy tu asistente de IA y estoy aquí para ayudarte a encontrar los mejores productos de tecnología.</p>
+                        <p><small>Escribe un mensaje para comenzar...</small></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Productos sugeridos -->
+            <div id="productos-sugeridos" class="productos-sugeridos"></div>
+
+            <!-- Input -->
+            <div class="chat-input-area">
+                <div class="input-wrapper">
+                    <input 
+                        type="text" 
+                        id="mensaje-input" 
+                        placeholder="Escribe tu pregunta aquí... (ej: busco un laptop)"
+                        autocomplete="off"
+                    >
+                    <button id="enviar-btn" class="btn-enviar">
+                        <span>Enviar</span>
+                        <span class="icon">➤</span>
+                    </button>
+                </div>
+                <div class="input-hints">
+                    <button class="hint-btn" onclick="enviarMensaje('¿Cómo estás?')">
+                        ¿Cómo estás?
+                    </button>
+                    <button class="hint-btn" onclick="enviarMensaje('¿Qué día es?')">
+                        ¿Qué día es?
+                    </button>
+                    <button class="hint-btn" onclick="enviarMensaje('Busco un laptop')">
+                        Buscar laptop
+                    </button>
+                    <button class="hint-btn" onclick="enviarMensaje('Ver mi carrito')">
+                        Ver carrito
+                    </button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Modal para detalles de producto -->
+    <div id="product-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="product-details"></div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
